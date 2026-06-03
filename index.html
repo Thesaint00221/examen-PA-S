@@ -1,130 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-<meta charset="UTF-8">
-<title>Quiz App</title>
-
-<style>
-body { font-family: Arial; padding: 12px; }
-h2 { margin-bottom: 10px; }
-
-.question {
-  font-weight: bold;
-  margin-top: 20px;
-  font-size: 16px;
-}
-
-.option {
-  display: block;
-  padding: 6px;
-  margin: 4px 0;
-  border-radius: 6px;
-}
-
-.option:hover {
-  background: #f0f0f0;
-  cursor: pointer;
-}
-
-.correct { background: #c6efce; }
-.wrong { background: #ffc7ce; }
-
-button {
-  margin: 5px 5px 10px 0;
-  padding: 10px;
-  font-size: 14px;
-}
-
-#scoreBox {
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .vraag { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
+    .juist { color: green; font-weight: bold; }
+    .fout { color: red; font-weight: bold; }
+  </style>
 </head>
-
 <body>
 
-<h2>📘 Quiz</h2>
-
-<button onclick="startQuiz()">Start</button>
-<button onclick="checkQuiz()">Nakijken</button>
+<h1>Quiz</h1>
 
 <div id="quiz"></div>
-<div id="scoreBox"></div>
+
+<button onclick="nakijken()">Nakijken</button>
+
+<h2 id="score"></h2>
 
 <script src="questions.js"></script>
 
 <script>
+let quizData = [];
 
-let current = [];
-
-function shuffle(arr){
-  for(let i=arr.length-1;i>0;i--){
-    const j = Math.floor(Math.random()*i);
-    [arr[i],arr[j]] = [arr[j],arr[i]];
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
+  return array;
 }
 
-function startQuiz(){
+function laadQuiz() {
+  quizData = shuffle([...questions]); // random volgorde
 
-  current = [...QUESTIONS];
-  shuffle(current);
+  const quizDiv = document.getElementById("quiz");
+  quizDiv.innerHTML = "";
 
-  let html = "";
+  quizData.forEach((q, index) => {
+    let html = `<div class="vraag">
+      <p><b>${index + 1}. ${q.vraag}</b></p>`;
 
-  current.forEach((q, i)=>{
-
-    html += `<div class="question">${i+1}. ${q.q}</div>`;
-
-    q.a.forEach((opt, j)=>{
+    q.antwoorden.forEach((a, i) => {
       html += `
-      <label class="option">
-        <input type="radio" name="q${i}" value="${j}">
-        ${String.fromCharCode(65+j)}. ${opt}
-      </label>`;
+        <label>
+          <input type="radio" name="q${index}" value="${i}">
+          ${a}
+        </label><br>
+      `;
     });
 
+    html += `<p id="feedback${index}"></p></div>`;
+    quizDiv.innerHTML += html;
   });
-
-  document.getElementById("quiz").innerHTML = html;
-  document.getElementById("scoreBox").innerHTML = "";
 }
 
-function checkQuiz(){
-
+function nakijken() {
   let score = 0;
 
-  current.forEach((q,i)=>{
+  quizData.forEach((q, index) => {
+    const gekozen = document.querySelector(`input[name="q${index}"]:checked`);
+    const feedback = document.getElementById(`feedback${index}`);
 
-    const selected = document.querySelector(`input[name=q${i}]:checked`);
-    const inputs = document.querySelectorAll(`input[name=q${i}]`);
+    const juisteAntwoord = q.antwoorden[q.juist];
 
-    inputs.forEach(inp=>{
-      const label = inp.parentElement;
-      label.classList.remove("correct","wrong");
+    if (!gekozen) {
+      feedback.innerHTML = `Niet ingevuld ❌ (juist: ${juisteAntwoord})`;
+      feedback.className = "fout";
+      return;
+    }
 
-      if(parseInt(inp.value) === q.correct){
-        label.classList.add("correct");
-      }
-    });
+    const gekozenIndex = parseInt(gekozen.value);
 
-    if(selected){
-      if(parseInt(selected.value) === q.correct){
-        score++;
-      } else {
-        selected.parentElement.classList.add("wrong");
-      }
+    if (gekozenIndex === q.juist) {
+      score++;
+      feedback.innerHTML = "Juist ✔";
+      feedback.className = "juist";
+    } else {
+      feedback.innerHTML =
+        `Fout ❌ jouw antwoord: ${q.antwoorden[gekozenIndex]} | juist: ${juisteAntwoord}`;
+      feedback.className = "fout";
     }
   });
 
-  const percent = Math.round((score / current.length) * 100);
+  const percentage = Math.round((score / quizData.length) * 100);
 
-  document.getElementById("scoreBox").innerHTML =
-    `Score: ${score}/${current.length} (${percent}%)`;
+  document.getElementById("score").innerHTML =
+    `Score: ${score} / ${quizData.length} (${percentage}%)`;
 }
 
+laadQuiz();
 </script>
 
+</body>
+</html>
 </body>
 </html>
