@@ -50,7 +50,7 @@ function shuffle(array) {
 function startQuiz() {
   // Controleert of QUESTIONS (hoofdletters) bestaat uit jouw questions.js
   if (typeof QUESTIONS === 'undefined' || !Array.isArray(QUESTIONS)) {
-    alert("questions.js is niet geladen of fout formaat");
+    alert("Geen geldige vragen gevonden");
     return;
   }
 
@@ -125,11 +125,11 @@ function nakijken() {
   document.getElementById("score").innerHTML =
     `Score: ${score} / ${quizData.length} (${pct}%)`;
 }
-</script>
+<script>
 
-<!-- voeg hier vragen in en bij aanpassing enkel heb bovenstaande copieren -->
-const questions = [
-  {
+const QUESTIONS = [
+
+{
     "q": "1.      Een veiligheidszorgsysteem bestaat uit een set van maatregelen gericht op het verkrijgen van inzicht en het beheersen van processen inzake veiligheid. Welke past niet in de rij?",
     "a": ["-       Beleidsmatig", "-      Organisatorische", "-       Wettelijke"],
     "correct": 2
@@ -1120,6 +1120,6 @@ const questions = [
     "correct": 0
   }
 ];
-
+</script>
 </body>
 </html>
