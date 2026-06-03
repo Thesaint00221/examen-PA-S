@@ -14,9 +14,15 @@
 
 <h1>Quiz</h1>
 
-<div id="quiz"></div>
+<div id="startscherm">
+  <p>Kies aantal vragen:</p>
+  <input type="number" id="aantal" min="1" value="3">
+  <button onclick="startQuiz()">Start</button>
+</div>
 
-<button onclick="nakijken()">Nakijken</button>
+<div id="quiz" style="display:none;"></div>
+
+<button id="nakijkBtn" style="display:none;" onclick="nakijken()">Nakijken</button>
 
 <h2 id="score"></h2>
 
@@ -33,9 +39,22 @@ function shuffle(array) {
   return array;
 }
 
-function laadQuiz() {
-  quizData = shuffle([...questions]); // random volgorde
+function startQuiz() {
+  let aantal = parseInt(document.getElementById("aantal").value);
 
+  if (isNaN(aantal) || aantal < 1) return;
+
+  // shuffle en neem selectie
+  quizData = shuffle([...questions]).slice(0, aantal);
+
+  document.getElementById("startscherm").style.display = "none";
+  document.getElementById("quiz").style.display = "block";
+  document.getElementById("nakijkBtn").style.display = "inline-block";
+
+  laadQuiz();
+}
+
+function laadQuiz() {
   const quizDiv = document.getElementById("quiz");
   quizDiv.innerHTML = "";
 
@@ -64,10 +83,10 @@ function nakijken() {
     const gekozen = document.querySelector(`input[name="q${index}"]:checked`);
     const feedback = document.getElementById(`feedback${index}`);
 
-    const juisteAntwoord = q.antwoorden[q.juist];
+    const juiste = q.antwoorden[q.juist];
 
     if (!gekozen) {
-      feedback.innerHTML = `Niet ingevuld ❌ (juist: ${juisteAntwoord})`;
+      feedback.innerHTML = `Niet ingevuld ❌ (juist: ${juiste})`;
       feedback.className = "fout";
       return;
     }
@@ -80,20 +99,20 @@ function nakijken() {
       feedback.className = "juist";
     } else {
       feedback.innerHTML =
-        `Fout ❌ jouw antwoord: ${q.antwoorden[gekozenIndex]} | juist: ${juisteAntwoord}`;
+        `Fout ❌ jouw antwoord: ${q.antwoorden[gekozenIndex]} | juist: ${juiste}`;
       feedback.className = "fout";
     }
   });
 
-  const percentage = Math.round((score / quizData.length) * 100);
+  const pct = Math.round((score / quizData.length) * 100);
 
   document.getElementById("score").innerHTML =
-    `Score: ${score} / ${quizData.length} (${percentage}%)`;
+    `Score: ${score} / ${quizData.length} (${pct}%)`;
 }
-
-laadQuiz();
 </script>
 
+</body>
+</html>
 </body>
 </html>
 </body>
