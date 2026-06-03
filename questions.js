@@ -1,4 +1,4 @@
-window questions = [
+const QUESTIONS = [
   {
     "q": "1.      Een veiligheidszorgsysteem bestaat uit een set van maatregelen gericht op het verkrijgen van inzicht en het beheersen van processen inzake veiligheid. Welke past niet in de rij?",
     "a": [
@@ -1793,4 +1793,4 @@ window questions = [
     ],
     "correct": 0
   }
-]
+];
