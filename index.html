@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Quiz</title>
+
   <style>
     body { font-family: Arial; margin: 20px; }
     .vraag { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
     .juist { color: green; font-weight: bold; }
     .fout { color: red; font-weight: bold; }
-    <script src="questions.js" defer></script>
   </style>
+
+  <!-- ✔ correct hier laden -->
+  <script src="questions.js" defer></script>
 </head>
+
 <body>
 
 <h1>Quiz</h1>
@@ -27,8 +31,6 @@
 
 <h2 id="score"></h2>
 
-<script src="questions.js"></script>
-
 <script>
 let quizData = [];
 
@@ -41,11 +43,15 @@ function shuffle(array) {
 }
 
 function startQuiz() {
+  if (!window.questions) {
+    alert("questions.js is niet geladen of verkeerd pad");
+    return;
+  }
+
   let aantal = parseInt(document.getElementById("aantal").value);
 
   if (isNaN(aantal) || aantal < 1) return;
 
-  // shuffle en neem selectie
   quizData = shuffle([...questions]).slice(0, aantal);
 
   document.getElementById("startscherm").style.display = "none";
@@ -113,4 +119,5 @@ function nakijken() {
 </script>
 
 </body>
+</html>
 </html>
