@@ -9,10 +9,9 @@
     .vraag { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
     .juist { color: green; font-weight: bold; }
     .fout { color: red; font-weight: bold; }
+    select, button { padding: 8px; font-size: 14px; margin-top: 5px; }
+    #startscherm p { margin-bottom: 5px; font-weight: bold; }
   </style>
-
-  <!-- BELANGRIJK: direct script laden -->
-  
 </head>
 
 <body>
@@ -21,7 +20,12 @@
 
 <div id="startscherm">
   <p>Kies aantal vragen:</p>
-  <input type="number" id="aantal" min="1" value="3">
+  <select id="aantal">
+    <option value="5">5 vragen</option>
+    <option value="10">10 vragen</option>
+    <option value="20">20 vragen</option>
+    <option value="40">40 vragen</option>
+  </select>
   <button onclick="startQuiz()">Start</button>
 </div>
 
@@ -48,6 +52,7 @@ function startQuiz() {
     return;
   }
 
+  // Haalt het gekozen getal uit het keuzemenu
   let aantal = parseInt(document.getElementById("aantal").value);
 
   if (isNaN(aantal) || aantal < 1) return;
@@ -117,8 +122,9 @@ function nakijken() {
     `Score: ${score} / ${quizData.length} (${pct}%)`;
 }
 </script>
+
 <script src="./questions.js"></script>
-  <script>
+<script>
 console.log("questions check:", window.questions);
 </script>
 </body>
