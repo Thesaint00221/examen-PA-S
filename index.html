@@ -12,7 +12,13 @@
   </style>
 
   <!-- ✔ correct hier laden -->
-  <script src="questions.js" defer></script>
+  <script>
+fetch("questions.js")
+  .then(r => r.text())
+  .then(eval)
+  .then(() => console.log("questions geladen"))
+  .catch(err => console.error("FOUT:", err));
+</script>
 </head>
 
 <body>
