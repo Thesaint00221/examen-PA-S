@@ -37,6 +37,7 @@
 <h2 id="score"></h2>
 
 <script>
+
 let quizData = [];
 
 function shuffle(array) {
@@ -48,16 +49,18 @@ function shuffle(array) {
 }
 
 function startQuiz() {
-  // Controleert of QUESTIONS (hoofdletters) bestaat uit jouw questions.js
-  if (typeof QUESTIONS === 'undefined' || !Array.isArray(QUESTIONS)) {
-    alert("Geen geldige vragen gevonden");
+
+  if (typeof QUESTIONS === "undefined" || !Array.isArray(QUESTIONS)) {
+    alert("Geen geldige vragen gevonden.");
     return;
   }
 
   let aantal = parseInt(document.getElementById("aantal").value);
-  if (isNaN(aantal) || aantal < 1) return;
 
-  // Schudt de QUESTIONS lijst
+  if (aantal > QUESTIONS.length) {
+    aantal = QUESTIONS.length;
+  }
+
   quizData = shuffle([...QUESTIONS]).slice(0, aantal);
 
   document.getElementById("startscherm").style.display = "none";
@@ -68,41 +71,54 @@ function startQuiz() {
 }
 
 function laadQuiz() {
+
   const quizDiv = document.getElementById("quiz");
   quizDiv.innerHTML = "";
 
   quizData.forEach((q, index) => {
-    // Gebruikt q.q in plaats van q.vraag
-    let html = `<div class="vraag">
-      <p><b>${index + 1}. ${q.q}</b></p>`;
 
-    // Gebruikt q.a in plaats van q.antwoorden
-    q.a.forEach((a, i) => {
+    let html = `
+      <div class="vraag">
+        <p><b>${index + 1}. ${q.q}</b></p>
+    `;
+
+    q.a.forEach((antwoord, i) => {
       html += `
         <label>
           <input type="radio" name="q${index}" value="${i}">
-          ${String.fromCharCode(65 + i)}. ${a}
+          ${String.fromCharCode(65 + i)}. ${antwoord}
         </label>
       `;
     });
 
-    html += `<p id="feedback${index}"></p></div>`;
+    html += `
+        <p id="feedback${index}"></p>
+      </div>
+    `;
+
     quizDiv.innerHTML += html;
   });
 }
 
 function nakijken() {
+
   let score = 0;
 
   quizData.forEach((q, index) => {
-    const gekozen = document.querySelector(`input[name="q${index}"]:checked`);
-    const feedback = document.getElementById(`feedback${index}`);
 
-    // Gebruikt q.correct en q.a
-    const juisteAntwoordTekst = q.a[q.correct];
+    const gekozen =
+      document.querySelector(`input[name="q${index}"]:checked`);
+
+    const feedback =
+      document.getElementById(`feedback${index}`);
+
+    const juisteTekst = q.a[q.correct];
 
     if (!gekozen) {
-      feedback.innerHTML = `Niet ingevuld ❌ (juist: ${String.fromCharCode(65 + q.correct)}. ${juisteAntwoordTekst})`;
+
+      feedback.innerHTML =
+        `Niet ingevuld ❌ (juist: ${String.fromCharCode(65 + q.correct)}. ${juisteTekst})`;
+
       feedback.className = "fout";
       return;
     }
@@ -110,12 +126,17 @@ function nakijken() {
     const gekozenIndex = parseInt(gekozen.value);
 
     if (gekozenIndex === q.correct) {
+
       score++;
+
       feedback.innerHTML = "Juist ✔";
       feedback.className = "juist";
+
     } else {
+
       feedback.innerHTML =
-        `Fout ❌ jouw antwoord: ${String.fromCharCode(65 + gekozenIndex)}. ${q.a[gekozenIndex]} | juist: ${String.fromCharCode(65 + q.correct)}. ${juisteAntwoordTekst}`;
+        `Fout ❌ jouw antwoord: ${String.fromCharCode(65 + gekozenIndex)}. ${q.a[gekozenIndex]} | juist: ${String.fromCharCode(65 + q.correct)}. ${juisteTekst}`;
+
       feedback.className = "fout";
     }
   });
@@ -125,7 +146,8 @@ function nakijken() {
   document.getElementById("score").innerHTML =
     `Score: ${score} / ${quizData.length} (${pct}%)`;
 }
-<script>
+
+/* HIER START DE VRAGENLIJST */
 
 const QUESTIONS = [
 
