@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz App</title>
+
+<style>
+body { font-family: Arial; padding: 12px; }
+h2 { margin-bottom: 10px; }
+
+.question {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.option {
+  display: block;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+.option:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.correct { background: #c6efce; }
+.wrong { background: #ffc7ce; }
+
+button {
+  margin: 5px 5px 10px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#scoreBox {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h2>📘 Quiz</h2>
+
+<button onclick="startQuiz()">Start</button>
+<button onclick="checkQuiz()">Nakijken</button>
+
+<div id="quiz"></div>
+<div id="scoreBox"></div>
+
+<script src="questions.js"></script>
+
+<script>
+
+let current = [];
+
+function shuffle(arr){
+  for(let i=arr.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*i);
+    [arr[i],arr[j]] = [arr[j],arr[i]];
+  }
+}
+
+function startQuiz(){
+
+  current = [...QUESTIONS];
+  shuffle(current);
+
+  let html = "";
+
+  current.forEach((q, i)=>{
+
+    html += `<div class="question">${i+1}. ${q.q}</div>`;
+
+    q.a.forEach((opt, j)=>{
+      html += `
+      <label class="option">
+        <input type="radio" name="q${i}" value="${j}">
+        ${String.fromCharCode(65+j)}. ${opt}
+      </label>`;
+    });
+
+  });
+
+  document.getElementById("quiz").innerHTML = html;
+  document.getElementById("scoreBox").innerHTML = "";
+}
+
+function checkQuiz(){
+
+  let score = 0;
+
+  current.forEach((q,i)=>{
+
+    const selected = document.querySelector(`input[name=q${i}]:checked`);
+    const inputs = document.querySelectorAll(`input[name=q${i}]`);
+
+    inputs.forEach(inp=>{
+      const label = inp.parentElement;
+      label.classList.remove("correct","wrong");
+
+      if(parseInt(inp.value) === q.correct){
+        label.classList.add("correct");
+      }
+    });
+
+    if(selected){
+      if(parseInt(selected.value) === q.correct){
+        score++;
+      } else {
+        selected.parentElement.classList.add("wrong");
+      }
+    }
+  });
+
+  const percent = Math.round((score / current.length) * 100);
+
+  document.getElementById("scoreBox").innerHTML =
+    `Score: ${score}/${current.length} (${percent}%)`;
+}
+
+</script>
+
+</body>
+</html>
