@@ -12,6 +12,17 @@
     select, button { padding: 8px; font-size: 14px; margin-top: 5px; }
     #startscherm p { margin-bottom: 5px; font-weight: bold; }
     label { display: block; margin: 5px 0; cursor: pointer; }
+    .correct-answer {
+  background-color: #c8f7c5;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.wrong-answer {
+  background-color: #ffd6d6;
+  padding: 3px;
+  border-radius: 4px;
+}
   </style>
 </head>
 
@@ -112,33 +123,47 @@ function nakijken() {
     const feedback =
       document.getElementById(`feedback${index}`);
 
-    const juisteTekst = q.a[q.correct];
+    const antwoorden =
+      document.querySelectorAll(`input[name="q${index}"]`);
 
-    if (!gekozen) {
+    antwoorden.forEach((radio, i) => {
 
-      feedback.innerHTML =
-        `Niet ingevuld ❌ (juist: ${String.fromCharCode(65 + q.correct)}. ${juisteTekst})`;
+      const label = radio.parentElement;
 
-      feedback.className = "fout";
-      return;
-    }
+      if (i === q.correct) {
+        label.classList.add("correct-answer");
+      }
 
-    const gekozenIndex = parseInt(gekozen.value);
+      if (
+        gekozen &&
+        parseInt(gekozen.value) === i &&
+        i !== q.correct
+      ) {
+        label.classList.add("wrong-answer");
+      }
 
-    if (gekozenIndex === q.correct) {
+      radio.disabled = true;
+    });
 
+    if (
+      gekozen &&
+      parseInt(gekozen.value) === q.correct
+    ) {
       score++;
-
-      feedback.innerHTML = "Juist ✔";
+      feedback.innerHTML = "✔ Juist";
       feedback.className = "juist";
-
     } else {
-
-      feedback.innerHTML =
-        `Fout ❌ jouw antwoord: ${String.fromCharCode(65 + gekozenIndex)}. ${q.a[gekozenIndex]} | juist: ${String.fromCharCode(65 + q.correct)}. ${juisteTekst}`;
-
+      feedback.innerHTML = "❌ Fout";
       feedback.className = "fout";
     }
+
+  });
+
+  const pct = Math.round((score / quizData.length) * 100);
+
+  document.getElementById("score").innerHTML =
+    `Score: ${score} / ${quizData.length} (${pct}%)`;
+}
   });
 
   const pct = Math.round((score / quizData.length) * 100);
