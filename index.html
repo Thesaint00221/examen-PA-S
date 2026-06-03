@@ -11,14 +11,8 @@
     .fout { color: red; font-weight: bold; }
   </style>
 
-  <!-- ✔ correct hier laden -->
-  <script>
-fetch("questions.js")
-  .then(r => r.text())
-  .then(eval)
-  .then(() => console.log("questions geladen"))
-  .catch(err => console.error("FOUT:", err));
-</script>
+  <!-- BELANGRIJK: direct script laden -->
+  <script src="questions.js"></script>
 </head>
 
 <body>
@@ -49,8 +43,8 @@ function shuffle(array) {
 }
 
 function startQuiz() {
-  if (!window.questions) {
-    alert("questions.js is niet geladen of verkeerd pad");
+  if (!Array.isArray(window.questions)) {
+    alert("questions.js is niet geladen of fout formaat");
     return;
   }
 
@@ -58,7 +52,7 @@ function startQuiz() {
 
   if (isNaN(aantal) || aantal < 1) return;
 
-  quizData = shuffle([...questions]).slice(0, aantal);
+  quizData = shuffle([...window.questions]).slice(0, aantal);
 
   document.getElementById("startscherm").style.display = "none";
   document.getElementById("quiz").style.display = "block";
@@ -125,5 +119,4 @@ function nakijken() {
 </script>
 
 </body>
-</html>
 </html>
