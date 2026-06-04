@@ -43,8 +43,14 @@
 
 <div id="quiz" style="display:none;"></div>
 
-<button id="nakijkBtn" style="display:none;" onclick="nakijken()">Nakijken</button>
+<button id="nakijkBtn" style="display:none;" onclick="nakijken()">
+  Nakijken
+</button>
 
+<button id="opnieuwBtn" style="display:none;" onclick="nieuweQuiz()">
+  Nieuwe quiz
+</button>
+  
 <h2 id="score"></h2>
 
 <script>
@@ -159,12 +165,34 @@ function nakijken() {
 
   });
 
-  const pct = Math.round((score / quizData.length) * 100);
+const pct = Math.round((score / quizData.length) * 100);
 
-  document.getElementById("score").innerHTML =
-    `Score: ${score} / ${quizData.length} (${pct}%)`;
+document.getElementById("score").innerHTML =
+  `Score: ${score} / ${quizData.length} (${pct}%)`;
+
+document.getElementById("opnieuwBtn").style.display = "inline-block";
 }
+function nieuweQuiz() {
 
+  // Quiz leegmaken
+  document.getElementById("quiz").innerHTML = "";
+
+  // Score wissen
+  document.getElementById("score").innerHTML = "";
+
+  // Knoppen verbergen
+  document.getElementById("nakijkBtn").style.display = "none";
+  document.getElementById("opnieuwBtn").style.display = "none";
+
+  // Startscherm opnieuw tonen
+  document.getElementById("startscherm").style.display = "block";
+
+  // Quiz verbergen
+  document.getElementById("quiz").style.display = "none";
+
+  // Variabele leegmaken
+  quizData = [];
+}
 /* HIER START DE VRAGENLIJST */
 
 const QUESTIONS = [
