@@ -116,7 +116,6 @@ function laadQuiz() {
     quizDiv.innerHTML += html;
   });
 }
-
 function nakijken() {
 
   let score = 0;
@@ -151,26 +150,36 @@ function nakijken() {
       radio.disabled = true;
     });
 
-    if (
-      gekozen &&
-      parseInt(gekozen.value) === q.correct
-    ) {
-      score++;
-      feedback.innerHTML = "✔ Juist";
+    // 🔥 GISCORRECTIE LOGICA
+    if (!gekozen) {
+      // niet ingevuld = 0
+      feedback.innerHTML = "⏭ Niet ingevuld";
+      feedback.className = "";
+    } 
+    else if (parseInt(gekozen.value) === q.correct) {
+      score += 1;
+      feedback.innerHTML = "✔ Juist (+1)";
       feedback.className = "juist";
-    } else {
-      feedback.innerHTML = "❌ Fout";
+    } 
+    else {
+      score -= 0.5;
+      feedback.innerHTML = "❌ Fout (-0.5)";
       feedback.className = "fout";
     }
 
   });
 
-const pct = Math.round((score / quizData.length) * 100);
+  const maxScore = quizData.length * 1;
+const minScore = quizData.length * -0.5;
 
-document.getElementById("score").innerHTML =
-  `Score: ${score} / ${quizData.length} (${pct}%)`;
+const pct = Math.round(
+  ((score - minScore) / (maxScore - minScore)) * 100
+);
 
-document.getElementById("opnieuwBtn").style.display = "inline-block";
+  document.getElementById("score").innerHTML =
+    `Score: ${score.toFixed(1)} / ${quizData.length} (${pct}%)`;
+
+  document.getElementById("opnieuwBtn").style.display = "inline-block";
 }
 function nieuweQuiz() {
 
