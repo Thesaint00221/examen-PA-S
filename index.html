@@ -172,9 +172,7 @@ function nakijken() {
   const maxScore = quizData.length * 1;
 const minScore = quizData.length * -0.5;
 
-const pct = Math.round(
-  ((score - minScore) / (maxScore - minScore)) * 100
-);
+const pct = ((score / quizData.length) * 100).toFixed(1);
 
   document.getElementById("score").innerHTML =
     `Score: ${score.toFixed(1)} / ${quizData.length} (${pct}%)`;
@@ -867,7 +865,7 @@ const QUESTIONS = [
   },
   {
     "q": "133.        Duid de juiste stelling aan:",
-    "a": ["-       Geluid met een overwicht aan lage tonen heeft een hoger geluidsvermogen dan een", "geluid met meer hoge tonen.", "-       De getalswaarde van het geluidsvermogen van een machine LwA is afhankelijk van  de plaats waar deze in staat; in het buitenopstelling is het geluidsvermogen altijd lager dan in binnenopstelling.", "-       De “A” weging, die geluidsdrukniveaus van dB omzet naar dB(A), houdt rekening met de gevoeligheid van het menselijk gehoor."],
+    "a": ["-       Geluid met een overwicht aan lage tonen heeft een hoger geluidsvermogen dan een geluid met meer hoge tonen.", "-       De getalswaarde van het geluidsvermogen van een machine LwA is afhankelijk van  de plaats waar deze in staat; in het buitenopstelling is het geluidsvermogen altijd lager dan in binnenopstelling.", "-       De “A” weging, die geluidsdrukniveaus van dB omzet naar dB(A), houdt rekening met de gevoeligheid van het menselijk gehoor."],
     "correct": 3
   },
   {
@@ -1161,8 +1159,8 @@ const QUESTIONS = [
     "correct": 0
   },
   {
-  vraag: "199. Belasting op de rug wordt vooral veroorzaakt door:",
-  opties: [
+  "q": "199. Belasting op de rug wordt vooral veroorzaakt door:",
+  "a": [
     "Het niet door de benen buigen",
     "De vorm van de last",
     "Het gewicht van de last"
@@ -1170,8 +1168,8 @@ const QUESTIONS = [
   correct: 0
 },
 {
-  vraag: "200. Wat zal tijdens een observatie gedetecteerd worden?",
-  opties: [
+  "q": "200. Wat zal tijdens een observatie gedetecteerd worden?",
+  "a": [
     "Falende bedrijfscomponenten op een machine",
     "Bedrijfsblindheid bij werknemers",
     "Ongemotiveerde hiërarchische oversten"
@@ -1179,8 +1177,8 @@ const QUESTIONS = [
   correct: 1
 },
 {
-  vraag: "201. De tractiebatterij dient regelmatig te worden bijgevuld met gedemineraliseerd water. Dit moet gebeuren:",
-  opties: [
+  "q": "201. De tractiebatterij dient regelmatig te worden bijgevuld met gedemineraliseerd water. Dit moet gebeuren:",
+  "a": [
     "Op het einde van de werkdag",
     "Vooraleer de batterij wordt bijgeladen",
     "Nadat de batterij is opgeladen"
@@ -1188,8 +1186,8 @@ const QUESTIONS = [
   correct: 2
 },
 {
-  vraag: "202. Welke belangrijke stappen dient een werkgever te ondernemen i.v.m. veiligheidsfuncties?",
-  opties: [
+  "q": "202. Welke belangrijke stappen dient een werkgever te ondernemen i.v.m. veiligheidsfuncties?",
+  "a": [
     "Selectie doen, over veiligheidsinstructies beschikken en ervoor zorgen dat de hiërarchische lijn de veiligheidsfuncties opvolgt en bijstuurt",
     "Bevoegd en betrouwbaar verklaren van werknemers door de werkgever, geschikte opleiding voorzien en medisch laten keuren",
     "Werknemers moeten minstens 18 jaar oud zijn"
@@ -1197,8 +1195,8 @@ const QUESTIONS = [
   correct: 1
 },
   {
-  vraag: "203. Een arbeider werkt in een fabriekshal gedurende 2 uur op 1 meter van een machine met een Lw van 87 dB(A), en gedurende 6 uur in een magazijn met een Lp van 83 dB(A). Welke activiteit draagt het meeste bij tot de dagdosis van die persoon?",
-  opties: [
+  "q": "203. Een arbeider werkt in een fabriekshal gedurende 2 uur op 1 meter van een machine met een Lw van 87 dB(A), en gedurende 6 uur in een magazijn met een Lp van 83 dB(A). Welke activiteit draagt het meeste bij tot de dagdosis van die persoon?",
+  "a": [
     "De machine",
     "Het magazijn",
     "Beide evenveel"
