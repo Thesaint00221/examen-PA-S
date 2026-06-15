@@ -1,0 +1,1777 @@
+[
+  {
+    "q": "1.      Een veiligheidszorgsysteem bestaat uit een set van maatregelen gericht op het verkrijgen van inzicht en het beheersen van processen inzake veiligheid. Welke past niet in de rij?",
+    "a": [
+      "-       Beleidsmatig",
+      "-      Organisatorische",
+      "-       Wettelijke"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "2.    Een duidelijk zichtbaar engagement van het topmanagement kun je terugvinden in:",
+    "a": [
+      "-       Het accidentenonderzoek",
+      "-       Het keurplan",
+      "-       De beleidsverklaring"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "3.    Er zijn acht kwaliteitsmanagementprincipes. Hieronder zijn er drie opgesomd, welke past niet in de rij?",
+    "a": [
+      "-      Leiderschap.",
+      "-      Betrokkenheid medewerkers",
+      "-      Training"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "4.    Er kan een parallel tussen veiligheidszorg en kwaliteitszorg getrokken worden. Beide hanteren gelijke principes zoals: betrokkenheid van iedereen, aandacht voor preventiebeginsel, proces van continue verbetering en ….. Welke zou u er nog aan toevoegen?",
+    "a": [
+      "-      Kostenreductie",
+      "-      Klantgerichtheid",
+      "-      Audit"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "5.    Welke dienst maakt gebruik van het DYRIB-systeem?",
+    "a": [
+      "-      Externe Dienst voor Preventie en Bescherming",
+      "-      Externe Dienst voor Technische Controle",
+      "-      FOD WASO"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "6.    Welke is geen veiligheidszorgsysteem?",
+    "a": [
+      "-      PAS",
+      "-      VCA",
+      "-      EMAS"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "7.    OHSAS 18001 is opgebouwd rond 5 hoofdstukken. Onder welk hoofdstuk vind je interne audits terug?",
+    "a": [
+      "-       Implementatie",
+      "-       Controle en correctie acties",
+      "-       Management review"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "8.    Het meta-technisch evaluatiesysteem (MES) beoordeelt bedrijven op:",
+    "a": [
+      "-       Hun bekwaamheid op het vlak van accidentenonderzoek in het kader van ernstige arbeidsongevallen.",
+      "-       Hun bekwaamheid op het vlak van beheersing van zware ongevallen waarbij dodelijke slachtoffers vallen.",
+      "-       Hun bekwaamheid op het vlak van beheersing van zware ongevallen waarbij gevaarlijke stoffen zijn betrokken."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "9.    Welke bewering is niet correct?",
+    "a": [
+      "-       VCA werkt met uitsluitingscriteria op de ernstgraad.",
+      "-       VCA voorziet in driejaarlijkse hercertificatie.",
+      "-       VCA staat voor VeiligheidsChecklist voor Aannemers"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "10. Wanneer wordt de grootste meerwaarde van een veiligheidsaudit gemaakt?",
+    "a": [
+      "-       Tijdens het opstellen van het auditrapport.",
+      "-       Tijdens het opstellen van de auditvragenlijst.",
+      "-       Tijdens het opstellen van het auditprogramma."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "11. Wat is een veiligheidsaudit?",
+    "a": [
+      "-       Zoeken naar technische gebreken.",
+      "-       Zoeken naar organisatorische gebreken.",
+      "-       Het vervullen van een wettelijke plicht."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "12. De structuur van het preventiebeleid kan opgebouwd worden uit 4 modules, zijnde: beleid, schadebeheer, risicobeheer en welke van de volgende?",
+    "a": [
+      "-       Opleiding",
+      "-       Veiligheidsorganisatie",
+      "-       Noodplanning"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "13.   CD 05. OHSAS 18001 is opgebouwd rond 5 hoofdstukken. Onder welk hoofdstuk vind je de opmaak van je jaaractieplan terug?",
+    "a": [
+      "-       Beleid",
+      "-       Planning",
+      "-       Management review"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "14. In welke kleuren moet een noodstopknop op een machine uitgevoerd worden?",
+    "a": [
+      "-       Groene knop op een rode achtergrond.",
+      "-       Gele knop op een rode achtergrond.",
+      "-       Rode knop op een gele achtergrond."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "15. Bij machines wordt de veiligheidsafstand (afstand tussen gevaarlijke zone en afscherming) bepaald door:",
+    "a": [
+      "-       Enkel de grootte van het risico",
+      "-       Enkel de grootte van de opening in de afscherming",
+      "-       De grootte van het risico en de grootte van de opening in de afscherming."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "16. De minimum voorschriften volgens de Europese arbeidsmiddelenrichtlijn zijn:",
+    "a": [
+      "-       Enkel van toepassing op nieuwe geleverde machines",
+      "-       Enkel van toepassing op machines geïnstalleerd voor 1995",
+      "-       Van toepassing op alle machines"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "17. Bij de aankoop van een machine kunnen we:",
+    "a": [
+      "-       Geen bijkomende eisen stellen daar deze machine voldoet aan de maximumeisen een lidstaat mag vragen.",
+      "-       Steeds bijkomende eisen stellen niettegenstaande de machine voldoet aan de machinerichtlijn.",
+      "-       Afhankelijk of de machine al dan niet voldoet aan de machinerichtlijn bijkomende eisen stellen."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "18. Een vast scherm:",
+    "a": [
+      "-       Bevestiging kan enkel geopend worden met een gereedschap",
+      "-       Moet blijven staan wanneer losgemaakt",
+      "-       Geen van beide"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "19.   DP 01. Een noodstopinrichting moet…",
+    "a": [
+      "-       Mag geen beweging in gang zetten na activering, makkelijk bereikbaar, buiten gevaarlijke zone",
+      "-       Makkelijk bereikbaar zijn, indien nodig beweging in werking zetten, deblokkering nodig na in werking gezet, installatie niet starten na deblokkering",
+      "-       Herkenbaar zijn, altijd op elke installatie aanwezig, makkelijk bereikbaar, buiten gevaarlijke zone’s"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "20.   DP 04. De minimumvoorschriften volgens de Europese arbeidsmiddelenrichtlijn zijn:",
+    "a": [
+      "-       Enkel van toepassing op nieuw geleverde machines",
+      "-       Enkel van toepassing op machines geïnstalleerd voor 1995",
+      "-       Van toepassing op alle machines"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "21. de bestelbon moet:",
+    "a": [
+      "-       Niet geviseerd worden voor CE gemerkte machines.",
+      "-       Altijd geviseerd worden.",
+      "-       Niet geviseerd worden voor een tweede bestelling van CE gemarkeerde machines."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "22. Bij het opmaken van een verslag voor indienstname controleert de preventieadviseur:",
+    "a": [
+      "-       De overeenstemming met de machinerichtlijn.",
+      "-       Administratieve aspecten.",
+      "-       Administratieve en fysische aspecten."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "23. Er moet geen attest gevraagd worden aan de constructeur:",
+    "a": [
+      "-       Bij elke identieke aankoop",
+      "-       Bij een identieke aankoop waarbij geen bijkomende eisen werden gesteld en de procedure volledig gevolgd werd bij een vorige aankoop",
+      "-       Bij een identieke aankoop binnen de eerstvolgende vijf jaar"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "24. Moeten de documenten van het aankoopdossier bewaard worden?",
+    "a": [
+      "-       Ja, tot drie maand na de indienstname",
+      "-       Ja voor de duur van de aanwezigheid van de machine op het bedrijf",
+      "-       Ja voor de levensduur van de machine"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "25. Op welk van volgende zaken is het KB CBM van toepassing?",
+    "a": [
+      "-       Een tijdelijk leuningsysteem gemonteerd op een bouwplaats",
+      "-       Een leuning van een trap in een kantoorgebouw",
+      "-       Een stelling die dienst doet als valbeveiliging voor een dakwerker"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "26.   PB 02. Het verslag indienstname in het kader van een aankoopprocedure wordt opgesteld door:",
+    "a": [
+      "-       De preventieadviseur van de interne dienst in de bedrijven A, B en C",
+      "-       Een externe dienst voor techn. Controle",
+      "-       De preventieadviseur van de externe dienst in de bedrijven A, B en C"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "27.   PB 05. De belangrijkste actie in het aankoopbeleid is:",
+    "a": [
+      "-       De bestelbon",
+      "-       Het nazicht van het attest",
+      "-       De voorafgaande risicoanalyse"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "28.   PB 06. Het belangrijkste document op te maken door de PA is:",
+    "a": [
+      "-       De bestelbon",
+      "-       Het attest van de leverancier",
+      "-       Het verslag van indienstname"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "29. Wat is een basisvoorwaarde bij de NIOSH-methode",
+    "a": [
+      "-       De last mag niet te zwaar zijn.",
+      "-       De werknemer moet zich niet bukken.",
+      "-       Het tillen moet rustig gebeuren."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "30. Waar is de inbreng van de engineering bij de HAZOP methode het grootst?",
+    "a": [
+      "-       Het motiveren van de HAZOP teamleden.",
+      "-       Het bepalen van de functionele onderdelen",
+      "-       Het bepalen van ongewenste gebeurtenissen."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "31. Hoe weet een bedrijf dat het SEVESO-plichtig is?",
+    "a": [
+      "-       Elk bedrijf moet dit voor zichzelf achterhalen",
+      "-       Opvragen bij FOD Welzijn op het werk",
+      "-       Opzoeken in het Belgische staatsblad"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "32. Een taakrisicoanalyse begint met?",
+    "a": [
+      "-       De formulering van het ongeval scenario",
+      "-       Het opdelen van een functie van een werknemer tot de verschillende afzonderlijke handelingen",
+      "-       De keuze van de gevaren uit een lijst waaraan de werknemers worden blootgesteld bij uitvoering van hun taak",
+      "-       De berekening van het risico"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "33. HAZOP?",
+    "a": [
+      "-       Een goede risicoanalysetechniek om menselijk falen te onderzoek",
+      "-       Een risicoanalysetechniek om de verschillende risico’s verbonden aan de werking van een industriële installatie in te schatten en met elkaar te vergelijken.",
+      "-       Voornamelijk een kwalitatieve risicoanalysetechniek om storingen van een individuele installatie te analyseren en mogelijke oorzaken hiervan vast te stellen.",
+      "-       Onderzoek naar het faalgedrag van alle componenten van een installatie en hun operationele werking."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "34. De foutenboom analyseert",
+    "a": [
+      "-       De toekomst",
+      "-       Het heden",
+      "-       Het verleden"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "35.   KVK 02. Wanneer wordt de grootste meerwaarde van een veiligheidsaudit gemaakt?",
+    "a": [
+      "-       Tijdens het opstellen van het auditrapport",
+      "-       Tijdens het opstellen van de auditvragenlijst",
+      "-       Tijdens het opstellen van het auditprogramma"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "36.   KVK 04. Wat is een veiligheidsaudit?",
+    "a": [
+      "-       Zoeken naar technische gebreken",
+      "-       Zoeken naar organisatorische gebreken",
+      "-       Het vervullen van een wettelijke plicht"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "37.   KVK 05. De NIOSH-methode is een analyse van…?",
+    "a": [
+      "-       Manueel tillen van lasten",
+      "-       Verdragen van lasten",
+      "-       Vertrekken van lasten"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "38. Wat is het vlampunt van een stof?",
+    "a": [
+      "-       De laagste temperatuur bij atmosferische druk waarbij deze stof zoveel mogelijk brandbare damp afgeeft, dat deze damp, intensief met lucht vermengd wordt en spontaan ontvlamt zonder enige uitwendige vlam of ontsteking.",
+      "-       De laagste temperatuur bij atmosferische druk waarbij deze stof zoveel mogelijk brandbare damp afgeeft, dat deze damp door een vlam of vonk kan worden ontstoken.",
+      "-       De laagste temperatuur die men kan meten in de punt van een vlam die bij de verbranding van een stof gebeurt bij atmosferische druk en de stof die intensief met lucht vermengd is."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "39. Een veiligheidsinformatieblad is:",
+    "a": [
+      "-       Een instructieblad dat de werkgever moet opstellen om zijn personeel met gevaarlijke producten te laten werken.",
+      "-       Een informatieblad opgesteld door de preventieadviseur met uitleg over de methodes die moeten opgevolgd worden voor het opstellen van de risicoanalyse.",
+      "-       Een informatieblad met 16 verplichte rubrieken die de leverancier van elk gevaarlijke product moet afgeven bij de eerste levering."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "40. Is volgende stelling juist: werkgevers die enkel chemische agentia gebruiken zonder er nieuwe stoffen of mengsels mee te maken, hebben niks met REACH-wetgeving te maken en hoeven zich daarvan niks aan te trekken.",
+    "a": [
+      "-       Ja",
+      "-       Nee",
+      "-       Het hangt af welke hoeveelheden je gebruikt"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "41. Op een fles met een gevaarlijke stof staan twee symbolen afgebeeld: een vlam met een streep eronder en een Sint-Andreaskruis. De inhoud van deze fles is:",
+    "a": [
+      "-       Licht of zeer licht ontvlambaar en schadelijk",
+      "-       Onontplofbaar en niet bestemd voor gebruik",
+      "-       Ontvlambaar en giftig"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "42. Op een etiket dat op een vat van 200 l gekleefd is staat o.a. volgende informatie. Welke informatie is niet-verplicht of niet-correct?",
+    "a": [
+      "-       Specifieke gevaar aanduidingen met zijn symbolen. De gevaarsymbolen moeten gedrukt zijn in het zwart op een oranje-gele achtergrond.",
+      "-       De nummers van de P- en H- zinnen die verwijzen naar de aard van de risico’s en de veiligheidsaanbevelingen.",
+      "-       Naam, adres en telefoonnummer van de fabrikant of leverancier."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "43. Welk symbool moet op een gascilinder met zuurstof onder hoge druk (200 bar) staan?",
+    "a": [
+      "-       Een uit elkaar spattende bom",
+      "-       Een cirkel met vlammen erboven",
+      "-      Een fles (houder onder druk)",
+      "-      Een vlam met een streep eronder"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "44. Heeft men, uitgaande van een gedeeltelijk vloeibaar gas in een afgesloten vat, door temperatuursverhoging de kritische temperatuur bereikt, dan zal bij verdere temperatuurstijging de druk in het vat:",
+    "a": [
+      "-       Gelijk blijven",
+      "-       Dalen",
+      "-       Stijgen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "45. Risico-evaluatie van scheikundige stoffen op het werk",
+    "a": [
+      "-       Is de bepaling van de blootstelling",
+      "-       Is een inventarisatie van de gebruikte producten",
+      "-       Is een vergelijking van de blootstelling op de werkplek met de geldende regels en normen."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "46.   SS 05. Wat is belangrijk bij de definitie van explosiegrenzen",
+    "a": [
+      "-       De temperatuur",
+      "-       De verhouding tussen 2 explosieve gassen",
+      "-       De verhouding tussen brandbaar gas en lucht"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "47.   SS 06. Men spreekt van licht ontvlambare vloeistoffen wanneer",
+    "a": [
+      "-       Ze een vlampunt hebben <23°C",
+      "-       Ze een vlampunt hebben <21°C",
+      "-       Ze een vlampunt hebben tussen 21°C en 55°C"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "48. Wie maakt het verslag voor indienstname op?",
+    "a": [
+      "-       De preventieadviseur.",
+      "-       Werkgever en preventieadviseur.",
+      "-       Enkel de externe dienst voor preventie en bescherming mag dit doen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "49. De belangrijkste actie in het aankoopbeleid is:",
+    "a": [
+      "-       De bestelbon.",
+      "-       Het nazicht van het attest.",
+      "-       De voorafgaande risicoanalyse."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "50. Het verslag indienstname in het kader van een aankoopprocedure wordt opgesteld door:",
+    "a": [
+      "-       De preventieadviseur van de interne dienst in bedrijven A, B en C",
+      "-       Een EDTC",
+      "-       De preventieadviseur van de externe dienst in bedrijven A, B en C"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "51. Aan het comité PBW:",
+    "a": [
+      "-       Moet de bestelling voorgelegd worden ter goedkeuring",
+      "-       Moet informatie gegeven worden over de bestelbon en het verslag van Indienstname",
+      "-       Moet het verslag van indienstname overhandigd worden"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "52.   PDV 04. Bij de aankoop van een machine is het ondertekenen van de bestelbon door de preventieadviseur:",
+    "a": [
+      "-       Niet verplicht",
+      "-       Verplicht, maar enkel indien bijkomende vereisten werden opgesteld",
+      "-       Steeds verplicht"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "53.   PDV 05. Bij het opmaken van een verslag voor indienstname controleert de preventieadviseur",
+    "a": [
+      "-       De overeenstemming met de machinerichtlijn",
+      "-       Administratieve aspecten",
+      "-       Administratieve en fysisiche aspecten"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "54. Wanneer moet een verliesstroomschakelaar (= automatische differentieelstroominrichting) getest worden volgens de fabrikant?",
+    "a": [
+      "-       Maandelijks",
+      "-       Halfjaarlijks",
+      "-       Jaarlijks"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "55. Een normaal menselijk lichaam heeft bij een spanning van 240V een gemiddelde lichaamsweerstand van:",
+    "a": [
+      "-       1000 Ohm",
+      "-       10000 Ohm",
+      "-       16000 Ohm"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "56. Een persoon die een opleiding BA4/BA5 gevolgd heeft:",
+    "a": [
+      "-       Mag deze functie in gelijk welk bedrijf uitoefenen.",
+      "-       Mag deze functie in het bedrijf uitoefenen waar hij / zij is tewerkgesteld.",
+      "-       Mag deze functie in het bedrijf uitoefenen mits een expliciete schriftelijke toelating van de HL."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "57. Wat is de gebruikelijke benaming van de aardgeleider van een elektrisch toestel.",
+    "a": [
+      "-       Beschermingsgeleider",
+      "-       Hoofdequipotentiaalgeleider",
+      "-       Aardingsklem"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "58. Elektrocutie door rechtstreekse aanraking doet zich voor:",
+    "a": [
+      "-       Indien een loodgieter, staande op een zinken platform, het evenwicht verliest en al struikelend een blanke, spanningsvoerende geleider van het openbaar elektriciteitsnet vastgrijpt.",
+      "-       Als een vogel neerstrijkt op een blanke, onder spanning staande geleider.",
+      "-       Wanneer een persoon, staande op een houten stoel, bij het vervangen van een gloeilamp, een spanningsvoerend deel van de lamphouder vastneemt."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "59. Bij het onderzoek van metalen reservoirs, zoals stoomketels, wordt veelal verlichting toegepast op zeer lage veiligheidsspanning (24 V)",
+    "a": [
+      "-       De veiligheidstransformator (230-240V) moet in het te onderzoeken reservoir worden opgesteld.",
+      "-       De veiligheidstransformator (230-240V) moet buiten het te onderzoeken reservoir worden opgesteld.",
+      "-       De keuze is vrij."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "60. Wat is de algemeen aanvaarde grootte van de verbrekingsstroomsterkte voor een mens wanneer wij over elektrocutie praten?",
+    "a": [
+      "-       20 mA",
+      "-       50 mA",
+      "-       300 mA"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "61. Welke eigenschap is verkeerd om een goede aarding te hebben?",
+    "a": [
+      "-       Een grote weerstand",
+      "-       Een goed contact met de aarde",
+      "-       Duurzaamheid"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "62. De beschermingsklassen van materialen en toestellen worden aangeduid met de letters X, Y en Z. Waarvoor staat de letter Y?",
+    "a": [
+      "-       De gebruiksomstandigheden waarin het materiaal/ toestel mag gebruikt worden.",
+      "-       De bescherming tegen indringende vloeistoffen/ water",
+      "-       Het gebruik in brandonveilige constructies."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "63. Welke factor speelt geen rol bij de ernst van elektrocutie?",
+    "a": [
+      "-       De grootte van de stroom",
+      "-       De lichaamsweerstand",
+      "-       De geleidbaarheid van het verbindingselement"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "64. Een toestel klasse 1 is gekenmerkt als:",
+    "a": [
+      "-       Een toestel met basisisolatie",
+      "-       Een toestel met basisisolatie en beschermingsgeleider",
+      "-       Een toestel dat werkt op zeer lage veiligheidsspanning"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "65. De grootte van de stroomsterkte heeft wat de invloed op het menselijk organisme betreft:",
+    "a": [
+      "-       Weinig invloed",
+      "-       Grote invloed",
+      "-       Geen invloed",
+      "-       Enkel boven de 5A"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "66. Statische elektriciteit kan ontstaan bij:",
+    "a": [
+      "-       De aanraking van een batterij van 12V",
+      "-       Het overtappen van vloeistoffen",
+      "-       Snel lopen over een houten vloer of trap",
+      "-       De antwoorden a, b en c zijn juist."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "67.  FGM 08. De aanduiding van twee vierkanten in elkaar op een toestel betekent:",
+    "a": [
+      "-       Dat het toestel voorzien is van de basisisolatie",
+      "-       Dat het een dubbel geïsoleerd toestel betreft",
+      "-       Dat het toestel moet worden aangesloten op een transformator"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "68.   FGM 12. Hoeveel vermindert de elektrische lichaamsweerstand een persoon als in een zwembad ligt tov zijn droge toestand.",
+    "a": [
+      "-       50%",
+      "-       30%",
+      "-       75%"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "69. Welke bewering in verband met het KB van 07/07/1994 over de basisnormen voor preventie van brand en ontploffing (BS 29/04/1995) voor de nieuwe gebouwen is FOUT.",
+    "a": [
+      "-       Een atriumgebouw is toegestaan op voorwaarde dat het is uitgerust met een automatische blusinstallatie en met rook- en warmteafvoer installaties.",
+      "-       De basisnormen zijn geldig voor elk nieuwe gebouw.",
+      "-       De elektrische noodvoeding moet de vitale installaties gedurende minstens … uur voeden."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "70. Welke zin is correct?",
+    "a": [
+      "-       Een werkgever moet jaarlijks een evacuatieoefening uitvoeren.",
+      "-       Een werkgever moet alarmoefeningen organiseren van zodra hij 50 werknemers in een gebouw.",
+      "-       Een werkgever moet minstens maandelijks de goede werking van de installatie voor waarschuwing en alarm laten testen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "71. Welke van onderstaande zinnen is correct?",
+    "a": [
+      "-       Een gewone metalen deur heeft een brandweerstand van een half uur.",
+      "-       Een lokaal waarin 56 liter aan vloeistoffen met een vlampunt kleiner dan 21° C wordt opgeslagen is een lokaal van groep 1 volgens artikel 52 van het ARAB",
+      "-       Voor werken met vuur of open vlam is steeds een vuurvergunning vereist."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "72. In welke groep moet, volgens artikel 52 van het ARAB een lokaal ingedeeld worden waarin dagelijks één bus met 20 l aceton (vlampunt -20° C) en één bus met 25 l benzine wordt opgeslagen (vlampunt < 0° C) opgeslagen worden?",
+    "a": [
+      "-       Groep 1",
+      "-       Groep 2",
+      "-       Groep 3"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "73. Welke bewering is correct?",
+    "a": [
+      "-       Elke uitgang moet ook als nooduitgang kunnen gebruikt worden en als dusdanig uitgerust worden.",
+      "-       Het ARAB schrijft niet voor dat elke deur die naar buiten open uitgeeft, in de vluchtzin moet openen.",
+      "-       Elke verdieping moet zowel van een uitgang als een nooduitgang voorzien zijn."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "74. Welke bewering is correct?",
+    "a": [
+      "-       Normen zijn in tegenstelling tot keurmerken verplicht toepasbaar.",
+      "-       Van zodra een werkgever 50 werknemers tewerkstelt moet hij de door de gemeentelijke brandweerdienst opgelegde brandbestrijdingsmiddelen in plaats stellen.",
+      "-       Artikel 52 van het ARAB legt geen enkel bouwvoorschrift op voor de lokalen van de groep 3."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "75.   FP 14. Welke van de volgende elementen wordt niet tot de middelen gerekend voor actieve brandbeveiliging?",
+    "a": [
+      "-       Brandcompartimentering",
+      "-       Automatische branddetectie",
+      "-       Een installatie voor rook- en warmteafvoer"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "76. Een verbranding is een scheikundige reactie tussen een brandstof en zuurstof:",
+    "a": [
+      "-       Deze reactie noemt men endotherm omdat warmte wordt geproduceerd.",
+      "-       Deze reactie noemt men exotherm omdat warmte wordt geproduceerd.",
+      "-       De reactie noemt men oxiderend omdat warmte wordt geproduceerd."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "77. De classificatie van branden werd opgemaakt op basis van de brandstoffen. Duid de juiste afspraak aan:",
+    "a": [
+      "-       Branden van papier en aluminium behoren respectievelijk tot klassen A en C.",
+      "-       Branden van spaanderplaat en benzine behoren respectievelijk tot klassen A en C",
+      "-       Branden van terpentijn en aardgas behoren respectievelijk tot klassen B en C"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "78. Een muurhydrant noemt men “gewapend” als:",
+    "a": [
+      "-       Het aangesloten is op een natte stijgleiding.",
+      "-       Het aangesloten is op een droge stijgleiding en voorzien is van brandweerslangen en een straalpijp.",
+      "-       Het voorzien is van brandweerslangen en een straalpijp."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "79. Brandende vetten worden het best geblust met:",
+    "a": [
+      "-       Sterk verneveld water",
+      "-       Poeder van de klasse BC",
+      "-       Zwaar blusschuim"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "80. Vlamdetectoren werken op het principe van:",
+    "a": [
+      "-       De verandering van lichtstroom opgevangen door een foto-elektrische weerstand",
+      "-       De infraroodstraling die door de vlammen wordt uitgezonden",
+      "-       De temperatuur die door de straling wordt gedetecteerd."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "81. Een vaste blusinstallatie met CO2 voor de bescherming van een machinekamer:",
+    "a": [
+      "-       Mag direct in werking treden na automatische detectie door een branddetectie installatie en uitgerust zijn met een waarschuwingssysteem dat de aanwezigen in de beschermde ruimte verwittigt vooraleer het blus gas wordt ingespoten.",
+      "-       Mag enkel manueel bediend worden.",
+      "-       Moet altijd uitgerust zijn met een waarschuwingssysteem dat de aanwezigen in de beschermde ruimte verwittigt vooraleer het blus gas wordt ingespoten."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "82. Een watersnelblusser is vooral geschikt voor het blussen van",
+    "a": [
+      "-       Een vaste stof",
+      "-       Een vloeistof",
+      "-       Metalen",
+      "-       Toestellen die onder elektrische spanning staan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "83. Het blusmiddel water heeft vooral invloed op:",
+    "a": [
+      "-       Het verwijderen van brandstof",
+      "-       Het afsnijden van zuurstof",
+      "-       Het verminderen van warmte (energie)"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "84. Het blusmiddel poeder heeft vooral invloed op:",
+    "a": [
+      "-       Het verwijderen van brandstof",
+      "-       Het afsnijden van zuurstof",
+      "-       Het verstoren van de gepaste mengverhouding",
+      "-       Als inhibitor"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "85. Het blusmiddel koolstofdioxide heeft vooral invloed op:",
+    "a": [
+      "-       Het verwijderen van brandbare stof",
+      "-       Het afsnijden van zuurstof",
+      "-       Het verminderen van de warmte (energie)",
+      "-       Het verstoren van de gepaste mengverhouding"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "86. Branden worden ingedeeld in 5 klassen. Wat staat voor klasse C?",
+    "a": [
+      "-       Vaste stoffen waarbij verbranding meestal gepaard gaat met gloeiresten.",
+      "-       Gassen.",
+      "-       Ontvlambare vloeistoffen of vaste stoffen die vloeibaar kunnen worden."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "87. Duid de juiste theoretische definitie aan van brand:",
+    "a": [
+      "-       Brand is een geheel van verschijnselen behorend bij een gecontroleerde schadebrengende verbranding",
+      "-       Brand is een geheel van verschijnselen behorend bij een niet-gecontroleerde schadebrengende verbranding.",
+      "-       Brand is een geheel van verschijnselen behorende bij een niet-gecontroleerde verbranding."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "88. Een koolstofdioxide snelblusser is vooral geschikt voor het blussen van:",
+    "a": [
+      "-       Een vaste stof",
+      "-       Een gasbrand",
+      "-       Metalen",
+      "-       Toestellen die onder elektrische spanning staan"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "89. Wanneer op een snelblusser 21B staat, kan men ervan uitgaan dat men hiermee kan blussen",
+    "a": [
+      "-       Een houtstapel van 56 cm hoogte, 50 cm diepte en 21 dm lengte",
+      "-       Een hoeveelheid brandstof van 21 liter",
+      "-       Een hoeveelheid brandstof van 21 kubieke meter",
+      "-       Een hoeveelheid brandstof met een oppervlakte van 21 vierkante meter"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "90. Koolstof zal bij aanwezigheid van voldoende zuurstof",
+    "a": [
+      "-       Eerst vergassen en dan branden",
+      "-       Eerst smelten en dan branden",
+      "-       Direct verbranden"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "91. Zelfontbranding van een pyrofore stof kan geschieden na",
+    "a": [
+      "-       10 minuten",
+      "-       30 minuten",
+      "-       Later, tot zelfs weken en maanden"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "92.  FGA 02. De temperatuur waarbij een brandstof bij contact met een ontstekingsbron blijft branden noemt men:",
+    "a": [
+      "-       Het zelfontbrandingspunt",
+      "-       Het vlampunt",
+      "-       Het ontbrandingspunt"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "93.   FGA 08. Een Benor-label op een draagbaar blustoestel duidt aan dat het toestel beantwoordt aan:",
+    "a": [
+      "-       De technische nota 105 van de NVBB",
+      "-       De normen NBN S21-011 tot -018",
+      "-       De eisen opgenomen in de twee vorige omschrijvingen"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "94. De aanslag-reductiefactoren bij het hijsen van lasten zijn:",
+    "a": [
+      "-       De materiaalsoort, de aangeduide capaciteit, de gebruiksfrequentie",
+      "-       De aanslaghoek, het aantal dragende punten en de vervormingsfactor",
+      "-       De lastbegrenzer, de lastmomenbegrenzer en de botsingbeveiliging"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "95. De periodiciteit van de periodieke keuring van hef- en hijstoestellen en het aanslagmateriaal door een EDTC is:",
+    "a": [
+      "-       Jaarlijks",
+      "-       6-maandelijks",
+      "-       3-maandelijks"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "96.   DP 04. Hijswerktuigen dienen verplicht…",
+    "a": [
+      "-       Gekeurd te worden door een EDTC",
+      "-       Gecontroleerd of gekeurd worden door bevoegd persoon",
+      "-       Enkel nagezien worden door de operator die ze gebruikt."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "97. Mag een speciale, voor één bepaalde toepassing bestemde machine, of een prototype waarvan slechts één exemplaar gefabriceerd is, en die niet vermeld staat in de catalogus van de fabrikant, worden vrijgesteld van het EG-typeonderzoek?",
+    "a": [
+      "-       Ja, want deze machine wordt door de constructeur niet op de markt gebracht want er is slechts één machine en niet meerdere.",
+      "-       Geen enkele bepaling in de richtlijn staat zo een uitzondering toe.",
+      "-       Geen van beide hierboven oplossingen zijn juist."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "98. Wat betekent een CE-merkteken op een machine?",
+    "a": [
+      "-       De machine is in overeenstemming met de normen die op deze machine van toepassing zijn.",
+      "-       De machine voldoet aan alle Europese Richtlijnen toepasselijk op dit product en werd onderworpen aan de geschikte procedure voor de beoordeling van de overeenstemming.",
+      "-       De installatie is veilig voor de operator en de constructeur heeft de nodige normering gevolgd."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "99. Het bedrijf van de PA Dhr. Wijsmans koopt een houtbewerkingsmachine. De constructeur is gevestigd in Taiwan. De machine wordt verdeeld door de Belgische invoerder. De machine wordt geleverd met een attest II A. Op dit attest staat vermeld dat het nazicht van het prototype is geschied door een organisatie in Taiwan. Wat is de houding van Dhr. Wijsmans?",
+    "a": [
+      "-       Dhr. Wijsmans kan de machine indienststellen want er is een attest II A",
+      "-       Dhr. Wijsmans kan de machine niet indienststellen, gezien het nazicht van het typeonderzoek gebeurd is door een Taiwanese organisatie.",
+      "-       Dhr. Wijsmans kan de machine indienststellen, maar zal een Nederlandse versie vragen van het attest II A."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "100.        Geharmoniseerde normen zijn hulpmiddelen voor de constructeur die een CE-markering dient aan te brengen op het product. Alle normen die te maken hebben met elektriciteit vormen de:",
+    "a": [
+      "-       ETSI normen",
+      "-       CENELEC normen",
+      "-       CEN normen"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "101.        Dhr. Rijckmans heeft vandaag een tweedehandse productielijn voor een prikje kunnen aankopen in Canada via een machinehandelaar daar ter plaatse. Hij heeft deze lijn door zijn technische dienst laten opstellen in zijn bedrijf in Brugge. De machine is relatief nieuw en werd gebouwd in november 1993. Dhr. Wijsmans stelt vast dat deze machine erbij gekomen is en er dus een indienststelling moet geschieden. Wat is de houding van Dhr. Wijsmans?",
+    "a": [
+      "-       Dhr. Wijsmans maakt een verslag voor indienststelling op met een negatief besluit: “De machine mag niet in dienst worden gesteld”, gezien de machine niet conform is aan de eisen van de machinerichtlijn.",
+      "-       Gezien het een niet-nieuwe machine betreft van voor het in werking treden van de machinerichtlijn, kan de Dhr. Wijsmans een indienststelling uitvoeren in het kader van het KB arbeidsmiddelen.",
+      "-       Gelet op het feit dat de machine niet werd gewijzigd en deze reeds conform was aan de wetgeving, kan die verder gebruikt worden binnen het bedrijf en kan Dhr. Wijsmans een indienststelling uitvoeren in het kader van het KB Arbeidsmiddelen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "102.        Normen die alle relevante aspecten behandelen uit de richtlijnen voor een bepaald product, zoals een boormachine zijn:",
+    "a": [
+      "-       Type A-normen",
+      "-       Type B-normen",
+      "-       Type C-normen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "103.        De geharmoniseerde normen bestaan in",
+    "a": [
+      "-       Alle talen van de Europese Gemeenschap",
+      "-       De talen van het land",
+      "-       Engels, Frans of Duits"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "104.        Op basis waarvan staat op een motortje een CE-markering?",
+    "a": [
+      "-       De machinerichtlijn",
+      "-       De richtlijn LOW voltage",
+      "-       De richtlijn LOW voltage en de EMC"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "105.        Het toepassen van normen is voor de constructeur:",
+    "a": [
+      "-       Altijd verplicht",
+      "-       Enkel verplicht bij een constructie van een nieuwe machine",
+      "-       Nooit verplicht"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "106.        De MRL is niet van toepassing op:",
+    "a": [
+      "-       Hijs- en hefgereedschappen",
+      "-       Niet voltooide machines",
+      "-       Machines voor het verplaatsen van kunstenaars tijdens hun optreden."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "107.        Wanneer ontwerp en fabricage van een machine die verschillende partijen worden uitgevoerd, wie is dan verantwoordelijk voor het aanbrengen van de CE-markering?",
+    "a": [
+      "-       De ontwerper",
+      "-       De fabrikant",
+      "-       De partij die de EG-verklaring van overeenstemming ondertekent"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "108.        De MRL is niet van toepassing op vervoermiddelen in de lucht, op het water en over spoor, moet een buitenboordmotor voorzien zijn van een CE-markering?",
+    "a": [
+      "-       Neen, aangezien de MRL niet van toepassing is",
+      "-       Neen, het is een explosiemotor die gekoppeld wordt met een ander component en deze hoeven geen CE markering.",
+      "-       Ja, het is een explosiemotor die gebruikt wordt om mechanische energie te produceren."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "109.        Vlees gelijk te stellen materialen, als bedoeld in bijlage IV zijn materialen met eigenschappen die vergelijkbaar zijn met:",
+    "a": [
+      "-       Vers vlees",
+      "-       Verhard rubber",
+      "-       Bevroren of diepgevroren vis"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "110.        De fabrikant van een niet-voltooide machine of diens gemachtigde bewaart de originele EG-inbouwverklaring",
+    "a": [
+      "-       Ten minste 10 jaar",
+      "-       De levensduur van de machine",
+      "-       Tot ten minste 10 jaar na de laatste fabricagedatum"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "111.        Moeten in de fabrikantenverklaring, conform bijlage II.B bij machines “niet voltooide machines” de fundamentele eisen worden vermeld waaraan niet voldaan is?",
+    "a": [
+      "-       Neen, want het is de opsteller van het constructiedossier (dus de eindgebruiker) die dit moet verzorgen.",
+      "-       Is afhankelijk van het soort machine, voor de bijlage IV, de gevaarlijke machines is het wenselijk dat er steeds de tussenkomst van een aangemelde instantie noodzakelijk is.",
+      "-       Geen van de hierboven beschreven punten is van toepassing."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "112.        Bij het koppelen van verschillende CE-gemerkte machines van verschillende constructies. Wie staat in voor de CE van de gehele installatie?",
+    "a": [
+      "-       Gezien iedere machine voorzien is van een CE merkteken, voldoet automatisch de gehele installatie aan de veiligheidseisen",
+      "-       Diegene die de samenbouw uitvoert wordt de finale constructeur en moet de CE voor de gehele installatie uitvoeren",
+      "-       Diegene die eigenaar is van de installatie zal de opdracht krijgen in het kader van de machinerichtlijn de samenbouw na te zien of deze voldoende veilig is."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "113.        Dhr. Ryckeboer van de firma Machinebouw nv wenst een handbediende snijschaar te bouwen. Plots schiet hem te binnen dat zijn collega hem gewaarschuwd heeft, dat als men machines bouwt de machinerichtlijn van toepassing is. Dhr. Wijsmans heeft de opleiding preventieadviseur gevolgd en dhr. Ryckeboer vraagt zijn advies.",
+    "a": [
+      "-       Dhr Wijsmans zegt: “Gezien het een machine is, is de machinerichtlijn van toepassing en het is een bijlage IV een aangemelde instantie moet dit nazien”.",
+      "-       Dhr. Wijsmans denkt even na en zegt de machinerichtlijn en het KB betreffende de arbeidsmiddelen richtlijn is van toepassing.",
+      "-       Dhr. Wijsmans adviseert alleen rekening te houden met het KB arbeidsmiddelen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "114.         CDH 02. Elektrocutie door onrechtstreekse aanraking doet zich voor indien:",
+    "a": [
+      "-      Men een op een stopcontact aangesloten verlengkabel aan het oprollen is, en op een beschadigde plaats een blanke geleider vastneemt.",
+      "-      Men het omhulsel van een betonmolen aanraakt, dat door een inwendige fout onder spanning staat.",
+      "-      Men bij schilderwerken, bijv. in een restaurant, niet-geïsoleerde geleiders vast neemt van een verlichtingsinstallatie met halogeenlampen gevoed op 12 Volt."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "115.        Mag er zomaar gewerkt worden op de openbare weg? Wat is vooraf noodzakelijk?",
+    "a": [
+      "-       Neen, er moet vooraf een toelating gewezen zijn (= een vergunning) door de Wegbeheerder samen met het vermelden van de noodzakelijke verkeersborden.",
+      "-       Neen, op het voetpad mag het zonder vergunning, op de rijbaan is een vergunning noodzakelijk samen met het vermelden van de noodzakelijke verkeersborden.",
+      "-       Ja, zolang er geen hinder veroorzaakt wordt aan andere weggebruikers."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "116.        Welke verwijderingsprocedures voor asbesthoudend materiaal mogen enkel uitgevoerd worden door erkende asbestbedrijven?",
+    "a": [
+      "-       Couveusezakmethode, hermetisch afgesloten zone",
+      "-       Eenvoudige handelingen, couveusezakmethode, hermetische zone",
+      "-       Sporadische handelingen, hermetische zone"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "117.        Welke documenten moet men betreffende steigers ter beschikking hebben?",
+    "a": [
+      "-       De gebruiksaanwijzing van de steiger",
+      "-       De handleiding",
+      "-       De catalogus van de steiger, de handleiding"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "118.        PD 02. Bij het bepalen en het kiezen van een arbeidsmiddel voor werkzaamheden op hoogte moet vooraf een stap ondernomen worden volgens het KB beleid, welke is die?:",
+    "a": [
+      "-       Een plaatsbeschrijving van de plaats waar het arbeidsmiddel zal ingezet worden.",
+      "-       Een risicoanalyse is vooraf uit te voeren",
+      "-       De veiligheidseisen vermelden in de bestelbon"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "119.        Wat is een deflagratie?",
+    "a": [
+      "-       Is een explosie waarbij de voortplantingssnelheid van het vlamfront tegenover het onverbrand mengsel kleiner is dan 340 m/s, veel lager is dan de snelheid waarmee de druk verdeeld wordt m.a.w. de drukgolven zijn sneller dan het vlamfront.",
+      "-       Is een explosie waarbij de voortplantingssnelheid supersonisch is (km/s) en die dus veel groter is dan de snelheid van de drukverdeling.",
+      "-       Is een primaire explosie die gevolgd wordt door een secundaire explosie en die alleen kan optreden in een gesloten ruimte of installatie."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "120.        Dhr. Rijckeboer heeft een productielijn aangekocht in 1993. Deze is niet voorzien van een CE-merkteken. Op deze productielijn worden in grote hoeveelheden lijmen en solventen gebruikt met een vlampunt lager dan 55°C. Op een vergadering met collega bedrijfsleiders verneemt Dhr. Rijckeboer dat er een nieuwe wetgeving zou zijn die heel streng is. Hij roept Dhr. Wijsmans zijn interne preventieadviseur bij zich en stelt hem de vraag of deze geruchten wel correct zijn en wat er verder in zijn bedrijf moet gebeuren. Wat is het antwoord van Dhr. Wijsmans?",
+    "a": [
+      "-       Gezien er voor de installatie reeds een zoneringsdossier werd opgesteld door een EDTC in het kader van de voorschriften van het artikel 105 van het ARAB moet Dhr. Ryckeboer zich verder geen zorgen maken.",
+      "-       Vanaf 1 juli 2006 meten in elke onderneming waar er met brandbare stoffen wordt gewerkt, de arbeidsplaatsen voldoen aan de Eu Richtlijn ATEX 137",
+      "-       De wetgeving is alleen en uitsluitend van toepassing voor de installaties of productielijnen, geplaatst na het KB van 26 maart 2003"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "121.        Een gas/stof kan slechts onder bepaalde voorwaarden exploderen. Welke zijn de grenzen voor de concentratie waarbij dit kan gebeuren? Duid de juiste uitspraak aan.",
+    "a": [
+      "-       Wanneer de onderste explosiegrens overschreden is en waarbij de bovenste explosiegrens niet overschreden wordt en er voldoende zuurstof aanwezig is.",
+      "-       Indien de bovenste explosiegrens overschreden wordt zal er altijd een explosie optreden, daarom wordt dit ook aangeduid als “bovenste explosiegrens”.",
+      "-       Deze grenzen zijn van product tot product zeer verschillende en bijgevolg niet juist te bepalen want ook het zuurstofpercentage kan wijzigen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "122.        Ter voorkoming van en bescherming tegen explosies zal men technische en organisatorische maatregelen nemen. Bij het verhinderen van explosies wordt:",
+    "a": [
+      "-       Gebruik gemaakt van explosieluiken of drukvaste apparatuur.",
+      "-       Het ontstaan van een primaire explosie wordt snel gedetecteerd door druksensoren Waardoor gelijktijdig alle verbindingen worden gesloten en een voldoende hoeveelheid CO2-poeder plots onder hoge druk in het apparaat wordt geïnjecteerd. Het doel is de volledige explosie te onderdrukken voor haar ontstaan.",
+      "-       U bent van oordeel dat geen enkel van de bovenstaande antwoorden juist is."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "123.        Wat is detonatie?",
+    "a": [
+      "-       Is een explosie waarbij de voortplantingssnelheid van het vlamfront t.o.v. het onverbrand mengsel kleiner is dan 340 m/s; veel lager is dan de snelheid waarmee de druk verdeeld wordt of m.a.w. de drukgolven zijn sneller dan het vlamfront",
+      "-       Is een explosie waarbij de voortplantingssnelheid supersonisch is (km/s) en die dus veel groter is dan de snelheid van de drukverdeling",
+      "-       Is een chemische explosie die het gevolg is van een hoge aanwezige ontstekingsenergie en een zeer hoge concentratie van dampen of gassen."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "124.        Een stofexplosie is een explosieve verbranding met een",
+    "a": [
+      "-       Lage brandsnelheid",
+      "-       Middelmatige brandsnelheid",
+      "-       Zeer hoge brandsnelheid"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "125.        In tabellen voor gevaarlijke stoffen worden de dichtheid van een gas gegeven, meestal ten opzicht van:",
+    "a": [
+      "-       Waterstof",
+      "-       Zuurstof",
+      "-       Lucht"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "126.        Duid het gas aan met de laagste ontvlambaarheidsgrens",
+    "a": [
+      "-       Acetyleen",
+      "-       Butaan",
+      "-       Aardgas"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "127.        Duid het gas aan met de laagste densiteit tov lucht",
+    "a": [
+      "-       Butaan",
+      "-       Propaan",
+      "-       Aardgas",
+      "-       Acetyleen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "128.        Een homogene explosie is:",
+    "a": [
+      "-       Een thermische explosie",
+      "-       Een explosieve verbranding",
+      "-       Een detonatie"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "129.        Voor ruimten waar gassen of dampen explosiegevaar kunnen veroorzaken wordt in het KB van 26/03/2003 de zone-indeling bepaald. Voor die indeling wordt rekening gehouden met:",
+    "a": [
+      "-       De mogelijke ontstekingsbronnen in de ruimte",
+      "-       De kans op aanwezigheid van gassen en dampen in de ruimte",
+      "-       De grootte (volume) van de ruimte"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "130.        Een organisatie die zich sterk profileert op de as systemen en componenten noemt men een controlerende organisatie. Deze wordt gekenmerkt door een aantal zaken, wat past niet in de rij?",
+    "a": [
+      "-       Formele documentatiesystemen",
+      "-       Audits",
+      "-       Coaching"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "131.        Een duidelijk zichtbaar engagement van het topmanagement kun je terugvinden in:",
+    "a": [
+      "-       Het accidentenonderzoek",
+      "-       Het keurplan",
+      "-       De beleidsverklaring"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "132.        Communicatie behoort in het 3D model van veiligheid tot",
+    "a": [
+      "-       De as vaardigheden en attitudes",
+      "-       De as technieken en methodes",
+      "-       De as componenten en systemen"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "133.        Duid de juiste stelling aan:",
+    "a": [
+      "-       Geluid met een overwicht aan lage tonen heeft een hoger geluidsvermogen dan een geluid met meer hoge tonen.",
+      "-       De getalswaarde van het geluidsvermogen van een machine LwA is afhankelijk van  de plaats waar deze in staat; in het buitenopstelling is het geluidsvermogen altijd lager dan in binnenopstelling.",
+      "-       De “A” weging, die geluidsdrukniveaus van dB omzet naar dB(A), houdt rekening met de gevoeligheid van het menselijk gehoor."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "134.        Het verband tussen geluidsvermogenniveau (Lw), en geluidsdrukniveau (Lp) in een binnenomgeving : (duidt de juiste stelling aan)",
+    "a": [
+      "-       Is enkel afhankelijk van de afstand tussen bron en ontvanger.",
+      "-       Is lineair; dit wil zeggen dat een stijging van 1 dB(A) in geluidsvermogen-niveau, ook een stijging van gemeten geluidsdrukniveau van 1 dB(A) zal veroorzaken.",
+      "-       verschilt als deze uitgedrukt is in dB, of dB(A)"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "135.        Het meten en analyseren van frequenties: (duidt de juiste stelling aan)",
+    "a": [
+      "-       Laat ons juist toe om geluiden van elkaar te onderscheiden.",
+      "-       Is noodzakelijk om een correcte gehoorbescherming te voorzien aan de werknemer.",
+      "-       Is noodzakelijk om infrasone en ultrasone geluiden te kunnen onderscheiden."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "136.        Duidt de juiste stelling aan:",
+    "a": [
+      "-       Alle trillingen met een lage frequentie (geluid is ook een trilling), zijn schadelijk voor de mens.",
+      "-       Trillingen met een lage frequentie en geluiden met een hoge frequentie zijn schadelijk voor de mens.",
+      "-       Trillingen met een lage frequentie zijn het meest schadelijk in de ruggegraat en hoge frequenties zijn schadelijk voor het hand-arm systeem"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "137.        Duidt de juiste stelling aan:",
+    "a": [
+      "-       Voor geluid kennen we 2 actiewaarden en 1 grenswaarde; Voor trillingen kennen we 1 actie- en 1 grenswaarde.",
+      "-       Voor zowel geluid als voor trillingen kennen we 1 actie- en 1 grenswaarde.",
+      "-       Er zijn enkel grenswaarden voor geluid; Actiewaarden en grenswaarden voor trillingen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "138.        Het doorslijpen van stenen voor de opbouw van een muur kan zowel in een binnenopstelling (in een loods),  als in een buitenomgeving gebeuren.  Het geluidsvermogen van het slijpen van stenen bedraagt 105 dB(A).  De arbeider die de stenen doorslijpt in een binnenopstelling ondervindt een dagdosis:",
+    "a": [
+      "-       Die hoger is dan de dosis die zou optreden in buitenomgeving",
+      "-       Gelijk is aan de dosis die zou optreden in buitenomgeving",
+      "-       Lager is dan de dosis die zou optreden in buitenomgeving"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "146.        Welke bewering is juist?",
+    "a": [
+      "-       Ototoxische stoffen kunnen geen gehoorschade veroorzaken",
+      "-       Organische oplosmiddelen en zware metalen hebben ototoxische eigenschappen",
+      "-       Alle werknemers dienen jaarlijks een audiometrie te ondergaan"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "147.        CDB 05. Het verband tussen geluidsvermogenniveau (Lw), en geluidsdrukniveau (Lp) in een binnenomgeving: (duidt de juiste stelling aan)",
+    "a": [
+      "-       Is enkel afhankelijk van de afstand tussen bron en ontvanger",
+      "-       Is lineair; dwz dat een stijging van 1dB(A) in geluidsvermogeniveau, ook een stijging van gemeten geluidsdrukniveau van 1 dB(A) zal veroorzaken.",
+      "-       Verschilt als deze uitgedrukt is in dB, of dB(A)"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "148.        Het 5S systeem gaat over:",
+    "a": [
+      "-       Scholing en opleiding als basis voor veilig werken",
+      "-       Orde en netheid als basis voor veilig werken",
+      "-       Risicofactoren model voor RSI"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "149.        Een violist is onderhevig aan:",
+    "a": [
+      "-       Dynamische overbelasting",
+      "-       Statische overbelasting",
+      "-       Statische en dynamische overbelasting"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "150.        Wat is ergonomie?",
+    "a": [
+      "-       Bestudeert mens en werk en beoogt aanpassen aan de mogelijkheden en beperkingen van de mens.",
+      "-       Bestudeert de anatomie van de mens.",
+      "-       Bestudeert de negatief ervaren toestand die gepaard gaat met klachten in lichamelijk, psychisch en / of sociaal opzicht."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "151.        Wat is antropometrie?",
+    "a": [
+      "-       De wetenschap van het menselijk lichaam.",
+      "-       De kennis van de afmetingen van het menselijk lichaam",
+      "-       De wetenschap van de functies van het menselijk lichaam"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "152.        MSA is een verzamelnaam die verwijst naar musculoskeletale aandoeningen van:",
+    "a": [
+      "-       De bovenste ledematen.",
+      "-       De onderste ledematen.",
+      "-       De bovenste en onderste ledematen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "153.        De pijlers van ergonomische remediologie zijn:",
+    "a": [
+      "-       Globaal systeembenadering, multidisciplinair en participatief",
+      "-       Infrastructuur, opleiding en organisatie",
+      "-       Communicatie, informatie en opleiding"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "154.        RSI is een verzamelnaam voor werkgebonden aandoeningen:",
+    "a": [
+      "-       Van de nek, de handen en de onderste ledematen",
+      "-       Van de nek, de schouders en de bovenste ledematen",
+      "-       Van de nek, de voeten en de bovenste ledematen"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "155.        Duid de juiste uitspraak aan betreffende het begrip “Antropometrie”",
+    "a": [
+      "-       Gebruik ik om de hoogte van de een werkblad aan te passen aan de werknemers.",
+      "-       Meet de fysiologische inspanning van de werknemers.",
+      "-       Geeft mij een goede berekeningsmethode van de reikwijdte op een werkpost."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "156.        Een “specifieke risicoanalyse” psychosociale risico’s",
+    "a": [
+      "-       Is enkel voor bepaalde sectoren verplicht",
+      "-       Moet uitgevoerd worden wanneer een ploegbaas dat vraagt",
+      "-       Is speciaal ontworpen voor werkgevers die pesterijen willen vermijden in hun bedrijf"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "157.        Het feitenregister",
+    "a": [
+      "-       Wordt opgenomen onder Punt 7 van het jaarverslag IDPBW",
+      "-       Is een belangrijk document bij het jaarlijks beoordelingsgesprek van een werknemer",
+      "-       Zegt ons wat meer over buitenstaanders die ongewenste gedragingen hebben vertoond in ons bedrijf"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "158.        CDM 02. De vertrouwenspersoon:",
+    "a": [
+      "-       Wordt in het bedrijf aangestuurd door de interne preventiedienst",
+      "-       Is wegens zijn discretieplicht een lid van het comité",
+      "-       Moet altijd over een apart lokaal beschikken in de personeelsdienst"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "159.        CDM 05. Met “5S”:",
+    "a": [
+      "-       Kan een bedrijf 5 belangrijkste stappen zetten in veiligheidsbewustwording",
+      "-       Kan een bedrijfsleider ongevallen vermijden",
+      "-       Kan ik een goed ongevalsonderzoek voeren door 5 safety parameters te onderzoeken: methode, uitrusting, organisatie, product en omgeving"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "160.        Welke is de voornaamste reglementering die momenteel gebruikt wordt als basis bij de bestrijding van ernstige noodsituaties?",
+    "a": [
+      "-       Wet van 31/12/1963 betreffende de civiele bescherming.",
+      "-       KB van 16/02/2006 betreffende de nood- en interventieplannen.",
+      "-       KB van 06/11/1979 tot vaststelling van de veiligheidsnormen in ziekenhuizen."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "161.        Een voorafgaand interventieplan wordt opgesteld door:",
+    "a": [
+      "-       De gemeenschappelijke rampenambtenaar.",
+      "-       De territoriaal bevoegde brandweerdienst op verzoek van de burgemeester.",
+      "-       De eigenaar van het complex waarvoor het plan wordt opgemaakt."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "162.        Wie neemt het initiatief tot het opmaken van een intern noodplan?",
+    "a": [
+      "-       De werkgever",
+      "-       De preventieadviseur",
+      "-       Het coördinatiecomité"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "163.        Hoeveel niveaus of fases zijn er volgens het KB van 16/02/2006 betreffende de nood- en interventieplannen?",
+    "a": [
+      "-       1",
+      "-       3",
+      "-       Volgens de omvang van de ramp"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "164.        Hoeveel disciplines (diensten) worden ingeschakeld bij het in werking treden van een nood- en inteventieplan.",
+    "a": [
+      "-       1",
+      "-       2",
+      "-       5"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "165.        De verplichting om over een intern noodplan te beschikken in de onderneming is opgelegd door:",
+    "a": [
+      "-       Het ARAB",
+      "-       De Vlaamse Milieuwetgeving",
+      "-       Diverse wetgevingen en reglementeringen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "166.        Uit welke twee belangrijke gedeelten bestaat het intern noodplan?",
+    "a": [
+      "-       Een organisatorisch en een operationeel gedeelte",
+      "-       Een informatief en een leidinggevend gedeelte",
+      "-       Een structureel en een communicatief gedeelte"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "167.       WB 02. Wanneer men overgaat tot het in werking stellen van een nood- en interventieplan komen verschillende diensten (disciplines) in actie. Wie voert de taak van discipline 2 uit?",
+    "a": [
+      "-       De politie",
+      "-       De brandweer en de operationele eenheden van de civiele bescherming",
+      "-       De dienst van de dringende geneeskundige dienstverlening."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "168.        De aanstelling van de veiligheidscoördinator verwezenlijking voor een bouwplaats gelegen in de inrichting van de werkgever met een nuttige oppervlakte > 500 m2 gebeurt door:",
+    "a": [
+      "-       De bouwdirectie belast met de controle op de uitvoering.",
+      "-       De opdrachtgever samen met de bouwdirectie belast met de uitvoering.",
+      "-       De opdrachtgever."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "169.        Een bedrijf doet beroep op een tuinaanlegger om de omgeving her en der in te richten. Bij deze werkzaamheden worden naast de aanplantingen ook nog wijzigingen aan de wegverharding uitgevoerd. Daartoe doet de tuinaanlegger beroep op een gespecialiseerde onderaannemer.",
+    "a": [
+      "-       Het KB Tijdelijke of Mobiele bouwplaatsen is van toepassing (meerdere aannemers,de tuinaanlegger en de wegenbouwer)",
+      "-       Enkel de afdeling V en VI van het KB Tijdelijke of Mobiele bouwplaatsen zijn van toepassing (werken met één aannemer: de tuinaanlegger is immers de enige  contractant.",
+      "-       Het KB Tijdelijke of Mobiele bouwplaatsen is niet van toepassing daar tuinaanleg werkzaamheden niet onder het begrip “bouwwerken” valt."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "170.        Het bedrijf waar je als PA werkt plant onderhoudswerken aan platte daken. Daarop bevinden zich een reeks ventilatoren die zorgen voor de extractie van licht toxische gassen die vrijkomen bij het productieproces. Als PA zal je dit gegeven meedelen aan de aannemer (er is geen aanstelling van een veiligheidscoördinator daar er slechts één aannemer is). Er ontstaat een gedachtenwisseling, welke stelling is hier correct?",
+    "a": [
+      "-       De aannemer kan met kennis van zaken de maximale blootstellingstijden vastleggen.",
+      "-       Als preventieadviseur moet ik mijn werkgever adviseren het productieproces stil te leggen.",
+      "-       Eigenlijk volstaat het dat ik als preventieadviseur dit gegeven meedeelde."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "171.        Bij belangrijke uitbreidingswerken (nieuwe productiehal 20 x 50 m) stelt u vast dat er bij de leveringen (aanhoudend verkeer) conflictsituaties ontstaan die reeds tot een paar incidenten leidden. Na contact genomen te hebben met de aannemer ziet het er niet naar uit dat deze de boodschap heeft begrepen.",
+    "a": [
+      "-       Je verwittigt de portier en gebiedt hem de toegang tot het bedrijfsterrein af te sluiten voor de leveranciers van de aannemer.",
+      "-       Je verwittigt de veiligheidscoördinator en vraagt hem een coördinatiestructuur bijeen te roepen.",
+      "-       Je meldt het probleem aan uw werkgever die zelf de nodige maatregelen moet treffen."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "172.        Bij de besprekingen met de coördinator-ontwerp wordt o.a. voorzien in later onderhoudswerken waarvan een deel kunnen uitgevoerd worden door eigen personeel.",
+    "a": [
+      "-       De preventieadviseur van de opdrachtgever moet zelf de te treffen voorzieningen voorstellen.",
+      "-       De coördinator-ontwerp moet de voorstellen doen m.b.t. de treffen voorzieningen.",
+      "-       Het is de taak van de ontwerper om de treffen voorzieningen voor te stellen."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "173.       JMA 02. In welke situatie heeft men als preventieadviseur van de opdrachtgever een overlappende bevoegdheid met deze van de veiligheidscoordinator?",
+    "a": [
+      "-       Wanneer men als preventieadviseur van de opdrachtgever advies moet verlenen aan zijn werkgever over de arbeidsomstandigheden van de werknemers die te werk worden gesteld op de tijdelijke of mobiele bouwplaats",
+      "-       Wanneer men als preventieadviseur van een aannemer advies moet geven aan zijn werkgever over de arbeidsomstandigheden van een onderaannemer",
+      "-       Wanneer men als preventieadviseur van een werkgever die het gebouw huurt advies moet verlenen over de arbeidsomstandigheden van zijn werknemers tijdens de bouwwerken"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "174.       JMA 04. Kan men als preventieadviseur van de opdrachtgever uitgenodigd worden tot de coördinatiestructuur?",
+    "a": [
+      "-       Neen, dit is enkel voor de preventieadviseurs van de bouwdirectie(s) belast met de uitvoering van de aannemer(s)",
+      "-       Ja, maar enkel als dit expliciet en gemotiveerd gevraagd wordt door een bouwdirectie belast met de uitvoering",
+      "-       Ja, want dit staat ook zo in het K.B. van 25/01/2001, bijlage I deel D."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "175.        Bij de grondwettelijke vrijheden en de rechten van de mens, wat komt dan NIET voor in het lijstje:",
+    "a": [
+      "-       Recht op briefgeheim",
+      "-       Vrijheid van de keuze bij dragen van kledij",
+      "-       Recht op willekeurige grond iemand zijn vrijheid te ontnemen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "176.        Behoort de kiesplicht tot de grondwettelijke vrijheden?",
+    "a": [
+      "-       Ja, de kiezer heeft recht op een stem",
+      "-       Nee, een plicht is geen vrijheid",
+      "-       Ik weet het niet"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "177.        In het kader van deontologie van de bewakingsindustrie heeft deze altijd het karakter om:",
+    "a": [
+      "-       Preventief op te treden",
+      "-       Het contact met de overheid te verbeteren",
+      "-       Het eenheidsstatuut uit te werken"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "178.        Het optreden van de bewakingsondernemingen en interne bewakingsdiensten en hun personeel heeft steeds een:",
+    "a": [
+      "-       Preventief karakter",
+      "-       Defensief karakter",
+      "-       Proactief karakter"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "179.        Werken in de publieke veiligheidssector betekent:",
+    "a": [
+      "-       Bewaken op openbare plaatsen door security diensten",
+      "-       Alle functies in verband met veiligheid die te maken hebben met de openbare Overheid",
+      "-       Samenwerking tussen politie en bewakingsdiensten op alle vlakken"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "180.        De wet tot regeling van de private en bijzondere veiligheid werd ingevoerd sedert:",
+    "a": [
+      "-       10 april 1990",
+      "-       9 juni 1999",
+      "-       7 mei 2004"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "181.        Het nieuw initiatief van de toenmalig Minister van Binnenlandse Zaken Louis Tobback leidde tot de wet van 10 april 1990 i.v.m.",
+    "a": [
+      "-       Verbod van private milities",
+      "-       Bewaking- en beveiligingsondernemingen en interne bewakingsdiensten",
+      "-       Wettelijk statuut van portiers en bewakingsagenten op evenementen"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "182.        De voornaamste pijlers om te stellen dat bewakingsondernemingen en interne bewakingsdiensten in alle omstandigheden het gebruik van elke vorm van geweld dienen te vermijden zijn:",
+    "a": [
+      "-       Politie en justitie",
+      "-       Integriteit, rechten en vrijheden",
+      "-       Organisatie en communicatie"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "183.        Wie werkt er niet in de publieke veiligheidssector?",
+    "a": [
+      "-       Politie",
+      "-       Bewakingsagenten",
+      "-       Burgemeester"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "184.        Wat behoort NIET tot de aandachtsgebieden van een goed risicobeheer van de security organisatie?",
+    "a": [
+      "-       Onderzoek naar de mogelijkheden van risico-financiering",
+      "-       Geheel of gedeeltelijk overdragen van de risico’s op anderen",
+      "-       Service- of dienstverlening"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "185.        Wie werkt er niet in de private veiligheidssector?",
+    "a": [
+      "-       Interne bewakingsdiensten",
+      "-       Veiligheidsdienst",
+      "-       Justitie"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "186.        De wet van 25 april en 7 mei 2004 verandert de titel van de wet in “wet tot regeling van de private en bijzondere veiligheid”. Wat betekent de term outsourcing?",
+    "a": [
+      "-       Het tegenhouden van de wildgroei",
+      "-       De zogenaamde personencontrole",
+      "-       Het ontlasten van politietaken"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "187.        Leidinggeven is een voortdurend proces van meekrijgen van het personeel. Leiding geven kent twee dimensies. Welke?",
+    "a": [
+      "-       Beroepsethiek en beroepsintegriteit",
+      "-       Management en leiderschap",
+      "-       Begeleiden van fietsers en automobilisten"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "188.        Beveiligen betekent inwerken op:",
+    "a": [
+      "-       De persoon of de zaak",
+      "-       Het gevaar",
+      "-       De bewaking"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "189.        . Welke twee specifieke diensten kunnen aangewezen worden om de civiele veiligheid te verzekeren?",
+    "a": [
+      "-       Bewakingsondernemingen en interne bewakingsdiensten",
+      "-       De algemene directie en de dienst veiligheid- en preventiebeleid",
+      "-       Beveiligingsondernemingen en ondernemingen voor veiligheidsadvies"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "190.       FGM 02. De nieuwe wetgeving op de beveiligingsdiensten is ontstaan uit:",
+    "a": [
+      "-       Om corruptie tussen bewakingsdiensten en politie uit de wereld te helpen",
+      "-       Om de sanering van de bewakingsondernemingen tegen te gaan",
+      "-       Om een onderscheid te maken tussen de ordehandhaving en de organisaties die zich bezig houden met de bewaking en beveiliging."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "191.       FGM 06. Wie is in de privé bewakingssector de wettelijke erkende bewakingsdiensten:",
+    "a": [
+      "-       Comité P",
+      "-       Privé milities",
+      "-       bewakingsondernemingen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "192.       . Welke 3 begrippen horen onder grensoverschrijdend gedrag",
+    "a": [
+      "-       Pesten op het werk – geweld op het werk– ongewenst seksueel gedrag op het werk (OSGW)",
+      "-       Pesten op het werk – stress – geweld op het werk",
+      "-       Pesten – ongewenst seksueel gedrag op het werk (OSGW) - conflict"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "193.       . De risicoanalyse op het niveau van een specifieke arbeidssituatie moet verplicht worden uitgevoerd als …",
+    "a": [
+      "-       De vertrouwenspersoon hierom vraagt",
+      "-       Ten minste 1/3de van de werknemers hierom vragen",
+      "-       Ten minste 1/3de van de werknemersvertegenwoordigers in het CPBW hierom vragen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "194.       . Wat is een logisch stappenplan wanneer iemand een conflict ervaart:",
+    "a": [
+      "-       Zelf aanpakken – leidinggevende aanspreken – vertrouwenspersoon aanspreken – preventieadviseur psychosociale aspecten aanspreken",
+      "-       Vertrouwenspersoon aanspreken – leidinggevende aanspreken – preventieadviseur psychosociale aspecten aanspreken",
+      "-       Vakbondsmedewerker aanspreken – zelf aanpakken – leidinggevende aanspreken - preventieadviseur psychosociale aspecten aanspreken"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "195.       . Welk van volgende elementen hoort niet thuis in de definitie van psychosociale risico’s op het werk?",
+    "a": [
+      "-       Arbeidsorganisatie",
+      "-       Interpersoonlijke relaties op het werk",
+      "-       Arbeidscontext"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "196.       Het register van feiten van derden:",
+    "a": [
+      "-       Is een instrument om de risicoanalyse van feiten van grensoverschrijdend gedrag veroorzaakt door derden te maken.",
+      "-       Is een instrument waarin de preventieactiviteiten inzake psychosociale belasting dienen opgenomen te worden.",
+      "-       Is een instrument om de risicoanalyse van feiten veroorzaakt door werknemers te maken."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "197.       . Wat behoort niet tot de wettelijke verplichting van een werkgever m.b.t.  sychosociale aspecten op het werk:",
+    "a": [
+      "-       Uitvoeren van een risicoanalyse van de psychosociale risico’s en treffen van preventiemaatregelen",
+      "-       Aanstellen van een vertrouwenspersoon (behalve wanneer alle  werknemersvertegenwoordigers van het CPBW hierom verzoeken)",
+      "-       Procedures opnemen in het arbeidsreglement"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "198.       . Binnen de formele psychosociale interventie zijn er drie types verzoeken. Wat is correct?",
+    "a": [
+      "-       Verzoek met collectief karakter – verzoek met individueel karakter voor psychosociale risico’s – verzoek met individueel karakter wegens grensoverschrijdend gedrag",
+      "-       Verzoek wegens stress – verzoek met collectief karakter - verzoek met individueel Karakter wegens grensoverschrijdend gedrag",
+      "-       Verzoek wegens aanpassing werkplek – verzoek wegens conflict – verzoek wegens roddelen"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "199. Belasting op de rug wordt vooral veroorzaakt door:",
+    "a": [
+      "Het niet door de benen buigen",
+      "De vorm van de last",
+      "Het gewicht van de last"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "200. Wat zal tijdens een observatie gedetecteerd worden?",
+    "a": [
+      "Falende bedrijfscomponenten op een machine",
+      "Bedrijfsblindheid bij werknemers",
+      "Ongemotiveerde hiërarchische oversten"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "201. De tractiebatterij dient regelmatig te worden bijgevuld met gedemineraliseerd water. Dit moet gebeuren:",
+    "a": [
+      "Op het einde van de werkdag",
+      "Vooraleer de batterij wordt bijgeladen",
+      "Nadat de batterij is opgeladen"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "202. Welke belangrijke stappen dient een werkgever te ondernemen i.v.m. veiligheidsfuncties?",
+    "a": [
+      "Selectie doen, over veiligheidsinstructies beschikken en ervoor zorgen dat de hiërarchische lijn de veiligheidsfuncties opvolgt en bijstuurt",
+      "Bevoegd en betrouwbaar verklaren van werknemers door de werkgever, geschikte opleiding voorzien en medisch laten keuren",
+      "Werknemers moeten minstens 18 jaar oud zijn"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "203. Een arbeider werkt in een fabriekshal gedurende 2 uur op 1 meter van een machine met een Lw van 87 dB(A), en gedurende 6 uur in een magazijn met een Lp van 83 dB(A). Welke activiteit draagt het meeste bij tot de dagdosis van die persoon?",
+    "a": [
+      "De machine",
+      "Het magazijn",
+      "Beide evenveel"
+    ],
+    "correct": 1
+  }
+]
