@@ -167,24 +167,24 @@ function nakijken() {
       klasse = "fout";
     }
 
-    feedback.innerHTML = `
-      ${boodschap}
+feedback.innerHTML = `
+  ${boodschap}
 
-      <div class="explanation">
-        <strong>Uitleg:</strong><br>
-        ${q.explanation || "Geen uitleg beschikbaar."}
+  <div class="explanation">
+    <strong>Uitleg:</strong><br>
+    ${q.explanation || "Geen uitleg beschikbaar."}
 
-        ${
-  .source
-    ? `<br><br><strong>Bron:</strong> ${
-        q.sourceUrl
-          ? `<a href="${.sourceUrl}" target="_blank" rel="noopener noreferrer">${.source}</a>`
-          : .source
-      }`
-    : ""
-}
-      </div>
-    `;
+    ${
+      q.source
+        ? `<br><br><strong>Bron:</strong> ${
+            q.sourceUrl
+              ? `<a href="${q.sourceUrl}" target="_blank" rel="noopener noreferrer">${q.source}</a>`
+              : q.source
+          }`
+        : ""
+    }
+  </div>
+`;
 
     feedback.className = klasse;
 
