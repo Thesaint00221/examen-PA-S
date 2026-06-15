@@ -175,10 +175,14 @@ function nakijken() {
         ${q.explanation || "Geen uitleg beschikbaar."}
 
         ${
-          q.source
-            ? `<br><br><strong>Bron:</strong> ${q.source}`
-            : ""
-        }
+  q.source
+    ? `<br><br><strong>Bron:</strong> ${
+        q.sourceUrl
+          ? `<a href="${q.sourceUrl}" target="_blank" rel="noopener noreferrer">${q.source}</a>`
+          : q.source
+      }`
+    : ""
+}
       </div>
     `;
 
