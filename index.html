@@ -67,7 +67,7 @@ function shuffle(array) {
 
 function startQuiz() {
 
-  if (typeof QUESTIONS === "undefined" || !Array.isArray(QUESTIONS)) {
+  if (!Array.isArray(QUESTIONS) || QUESTIONS.length === 0) {
     alert("Geen geldige vragen gevonden.");
     return;
   }
@@ -203,6 +203,18 @@ function nieuweQuiz() {
 /* HIER START DE VRAGENLIJST */
 
 </script>
-<script src="vragen.js"></script>
+<script>
+let QUESTIONS = [];
+
+fetch('vragen.json')
+  .then(response => response.json())
+  .then(data => {
+    QUESTIONS = data;
+  })
+  .catch(error => {
+    console.error('Fout bij laden vragen.json:', error);
+    alert('Kon vragen.json niet laden.');
+  });
+</script>
 </body>
 </html>
