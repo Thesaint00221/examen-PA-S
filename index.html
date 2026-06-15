@@ -9,6 +9,16 @@
     .vraag { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
     .juist { color: green; font-weight: bold; }
     .fout { color: red; font-weight: bold; }
+    .explanation {
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #4CAF50;
+  border-radius: 4px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+    }
     select, button { padding: 8px; font-size: 14px; margin-top: 5px; }
     #startscherm p { margin-bottom: 5px; font-weight: bold; }
     label { display: block; margin: 5px 0; cursor: pointer; }
@@ -67,7 +77,7 @@ function shuffle(array) {
 
 function startQuiz() {
 
-  if (typeof QUESTIONS === "undefined" || !Array.isArray(QUESTIONS)) {
+  if (!Array.isArray(QUESTIONS) || QUESTIONS.length === 0) {
     alert("Geen geldige vragen gevonden.");
     return;
   }
@@ -150,29 +160,51 @@ function nakijken() {
       radio.disabled = true;
     });
 
-    // 🔥 GISCORRECTIE LOGICA
+    let boodschap = "";
+    let klasse = "";
+
     if (!gekozen) {
-      // niet ingevuld = 0
-      feedback.innerHTML = "⏭ Niet ingevuld";
-      feedback.className = "";
-    } 
-    else if (parseInt(gekozen.value) === q.correct) {
-      score += 1;
-      feedback.innerHTML = "✔ Juist (+1)";
-      feedback.className = "juist";
-    } 
-    else {
-      score -= 0.5;
-      feedback.innerHTML = "❌ Fout (-0.5)";
-      feedback.className = "fout";
+
+      boodschap = "⏭ Niet ingevuld";
+      klasse = "";
+
     }
+    else if (parseInt(gekozen.value) === q.correct) {
+
+      score += 1;
+
+      boodschap = "✔ Juist (+1)";
+      klasse = "juist";
+
+    }
+    else {
+
+      score -= 0.5;
+
+      boodschap = "❌ Fout (-0.5)";
+      klasse = "fout";
+    }
+
+    feedback.innerHTML = `
+      ${boodschap}
+
+      <div class="explanation">
+        <strong>Uitleg:</strong><br>
+        ${q.explanation || "Geen uitleg beschikbaar."}
+
+        ${
+          q.source
+            ? `<br><br><strong>Bron:</strong> ${q.source}`
+            : ""
+        }
+      </div>
+    `;
+
+    feedback.className = klasse;
 
   });
 
-  const maxScore = quizData.length * 1;
-const minScore = quizData.length * -0.5;
-
-const pct = ((score / quizData.length) * 100).toFixed(1);
+  const pct = ((score / quizData.length) * 100).toFixed(1);
 
   document.getElementById("score").innerHTML =
     `Score: ${score.toFixed(1)} / ${quizData.length} (${pct}%)`;
@@ -203,6 +235,18 @@ function nieuweQuiz() {
 /* HIER START DE VRAGENLIJST */
 
 </script>
-<script src="vragen.js"></script>
+<script>
+let QUESTIONS = [];
+
+fetch('vragen.json')
+  .then(response => response.json())
+  .then(data => {
+    QUESTIONS = data;
+  })
+  .catch(error => {
+    console.error('Fout bij laden vragen.json:', error);
+    alert('Kon vragen.json niet laden.');
+  });
+</script>
 </body>
 </html>
