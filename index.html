@@ -10,29 +10,31 @@
     .juist { color: green; font-weight: bold; }
     .fout { color: red; font-weight: bold; }
     .explanation {
-  margin-top: 8px;
-  padding: 10px;
-  background-color: #f8f9fa;
-  border-left: 4px solid #4CAF50;
-  border-radius: 4px;
-  color: #333;
-  font-size: 14px;
-  line-height: 1.4;
+      margin-top: 8px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      border-left: 4px solid #4CAF50;
+      border-radius: 4px;
+      color: #333;
+      font-size: 14px;
+      line-height: 1.4;
+      display: none; /* Standaard verbergen we de uitleg */
     }
     select, button { padding: 8px; font-size: 14px; margin-top: 5px; }
     #startscherm p { margin-bottom: 5px; font-weight: bold; }
     label { display: block; margin: 5px 0; cursor: pointer; }
+    
     .correct-answer {
-  background-color: #c8f7c5;
-  padding: 3px;
-  border-radius: 4px;
-}
+      background-color: #c8f7c5;
+      padding: 3px;
+      border-radius: 4px;
+    }
 
-.wrong-answer {
-  background-color: #ffd6d6;
-  padding: 3px;
-  border-radius: 4px;
-}
+    .wrong-answer {
+      background-color: #ffd6d6;
+      padding: 3px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 
@@ -64,6 +66,21 @@
 <h2 id="score"></h2>
 
 <script>
+// VOORBEELDVRAGEN (Zorg dat deze variabele bestaat in je code)
+const QUESTIONS = [
+  {
+    vraag: "Wat is de hoofdstad van Frankrijk?",
+    opties: ["Berlijn", "Parijs", "Londen", "Madrid"],
+    correct: 1, // Index van het juiste antwoord (Parijs)
+    uitleg: "Parijs is de hoofdstad en de grootste stad van Frankrijk."
+  },
+  {
+    vraag: "Hoeveel poten heeft een spin?",
+    opties: ["6", "8", "10", "12"],
+    correct: 1,
+    uitleg: "Spinnen horen bij de achtpootachtigen en hebben dus 8 poten."
+  }
+];
 
 let quizData = [];
 
@@ -76,177 +93,104 @@ function shuffle(array) {
 }
 
 function startQuiz() {
-
   if (!Array.isArray(QUESTIONS) || QUESTIONS.length === 0) {
     alert("Geen geldige vragen gevonden.");
     return;
   }
 
   let aantal = parseInt(document.getElementById("aantal").value);
-
   if (aantal > QUESTIONS.length) {
     aantal = QUESTIONS.length;
   }
 
+  // Schudden en selecteren van vragen
   quizData = shuffle([...QUESTIONS]).slice(0, aantal);
 
-  document.getElementById("startscherm").style.display = "none";
-  document.getElementById("quiz").style.display = "block";
-  document.getElementById("nakijkBtn").style.display = "inline-block";
-
-  laadQuiz();
-}
-
-function laadQuiz() {
-
-  const quizDiv = document.getElementById("quiz");
-  quizDiv.innerHTML = "";
-
-  quizData.forEach((q, index) => {
-
-    let html = `
-      <div class="vraag">
-        <p><b>${index + 1}. ${q.q}</b></p>
-    `;
-
-    q.a.forEach((antwoord, i) => {
-      html += `
-        <label>
-          <input type="radio" name="q${index}" value="${i}">
-          ${String.fromCharCode(65 + i)}. ${antwoord}
+  // HTML opbouwen voor de quiz
+  let quizHtml = "";
+  quizData.forEach((q, qIndex) => {
+    quizHtml += `<div class="vraag" id="vraag-${qIndex}">`;
+    quizHtml += `<p><strong>Vraag ${qIndex + 1}:</strong> ${q.vraag}</p>`;
+    
+    q.opties.forEach((optie, oIndex) => {
+      quizHtml += `
+        <label id="label-${qIndex}-${oIndex}">
+          <input type="radio" name="vraag-${qIndex}" value="${oIndex}">
+          ${optie}
         </label>
       `;
     });
 
-    html += `
-        <p id="feedback${index}"></p>
-      </div>
-    `;
-
-    quizDiv.innerHTML += html;
+    // Voeg de uitlegbox toe (onzichtbaar via CSS tot nakijken)
+    quizHtml += `<div class="explanation" id="uitleg-${qIndex}"><strong>Uitleg:</strong> ${q.uitleg || 'Geen uitleg beschikbaar.'}</div>`;
+    quizHtml += `</div>`;
   });
-}
-function nakijken() {
 
+  document.getElementById("quiz").innerHTML = quizHtml;
+  
+  // Schermen wisselen
+  document.getElementById("startscherm").style.display = "none";
+  document.getElementById("quiz").style.display = "block";
+  document.getElementById("nakijkBtn").style.display = "inline-block";
+}
+
+function nakijken() {
   let score = 0;
 
-  quizData.forEach((q, index) => {
-
-    const gekozen =
-      document.querySelector(`input[name="q${index}"]:checked`);
-
-    const feedback =
-      document.getElementById(`feedback${index}`);
-
-    const antwoorden =
-      document.querySelectorAll(`input[name="q${index}"]`);
-
-    antwoorden.forEach((radio, i) => {
-
-      const label = radio.parentElement;
-
-      if (i === q.correct) {
-        label.classList.add("correct-answer");
-      }
-
-      if (
-        gekozen &&
-        parseInt(gekozen.value) === i &&
-        i !== q.correct
-      ) {
-        label.classList.add("wrong-answer");
-      }
-
-      radio.disabled = true;
-    });
-
-    let boodschap = "";
-    let klasse = "";
-
-    if (!gekozen) {
-
-      boodschap = "⏭ Niet ingevuld";
-      klasse = "";
-
-    }
-    else if (parseInt(gekozen.value) === q.correct) {
-
-      score += 1;
-
-      boodschap = "✔ Juist (+1)";
-      klasse = "juist";
-
-    }
-    else {
-
-      score -= 0.5;
-
-      boodschap = "❌ Fout (-0.5)";
-      klasse = "fout";
+  quizData.forEach((q, qIndex) => {
+    const geselecteerd = document.querySelector(`input[name="vraag-${qIndex}"]:checked`);
+    const uitlegBox = document.getElementById(`uitleg-${qIndex}`);
+    
+    // Toon de uitlegbox voor elke vraag
+    if (uitlegBox) {
+      uitlegBox.style.display = "block";
     }
 
-    feedback.innerHTML = `
-      ${boodschap}
+    // Markeer het juiste antwoord altijd met groen (.correct-answer)
+    const juistLabel = document.getElementById(`label-${qIndex}-${q.correct}`);
+    if (juistLabel) {
+      juistLabel.classList.add("correct-answer");
+    }
 
-      <div class="explanation">
-        <strong>Uitleg:</strong><br>
-        ${q.explanation || "Geen uitleg beschikbaar."}
+    if (geselecteerd) {
+      const gekozenAntwoord = parseInt(geselecteerd.value);
 
-        ${
-          q.source
-            ? `<br><br><strong>Bron:</strong> ${q.source}`
-            : ""
+      if (gekozenAntwoord === q.correct) {
+        score++;
+        // Voeg tekstuele feedback toe indien gewenst
+        uitlegBox.insertAdjacentHTML('afterbegin', '<span class="juist">Goed!</span> ');
+      } else {
+        // Fout antwoord rood markeren (.wrong-answer)
+        const foutLabel = document.getElementById(`label-${qIndex}-${gekozenAntwoord}`);
+        if (foutLabel) {
+          foutLabel.classList.add("wrong-answer");
         }
-      </div>
-    `;
+        uitlegBox.insertAdjacentHTML('afterbegin', '<span class="fout">Fout!</span> ');
+      }
+    } else {
+      // Niets ingevuld
+      uitlegBox.insertAdjacentHTML('afterbegin', '<span class="fout">Niet beantwoord!</span> ');
+    }
 
-    feedback.className = klasse;
-
+    // Radiobuttons uitschakelen na nakijken
+    const radioButtons = document.querySelectorAll(`input[name="vraag-${qIndex}"]`);
+    radioButtons.forEach(btn => btn.disabled = true);
   });
 
-  const pct = ((score / quizData.length) * 100).toFixed(1);
-
-  document.getElementById("score").innerHTML =
-    `Score: ${score.toFixed(1)} / ${quizData.length} (${pct}%)`;
-
+  // Score tonen en knoppen wisselen
+  document.getElementById("score").innerText = `Je score is: ${score} van de ${quizData.length}`;
+  document.getElementById("nakijkBtn").style.display = "none";
   document.getElementById("opnieuwBtn").style.display = "inline-block";
 }
+
 function nieuweQuiz() {
-
-  // Quiz leegmaken
-  document.getElementById("quiz").innerHTML = "";
-
-  // Score wissen
-  document.getElementById("score").innerHTML = "";
-
-  // Knoppen verbergen
-  document.getElementById("nakijkBtn").style.display = "none";
-  document.getElementById("opnieuwBtn").style.display = "none";
-
-  // Startscherm opnieuw tonen
-  document.getElementById("startscherm").style.display = "block";
-
-  // Quiz verbergen
+  // Reset alles naar de beginstand
+  document.getElementById("score").innerText = "";
   document.getElementById("quiz").style.display = "none";
-
-  // Variabele leegmaken
-  quizData = [];
+  document.getElementById("opnieuwBtn").style.display = "none";
+  document.getElementById("startscherm").style.display = "block";
 }
-/* HIER START DE VRAGENLIJST */
-
 </script>
-<script>
-let QUESTIONS = [];
 
-fetch('vragen.json')
-  .then(response => response.json())
-  .then(data => {
-    QUESTIONS = data;
-  })
-  .catch(error => {
-    console.error('Fout bij laden vragen.json:', error);
-    alert('Kon vragen.json niet laden.');
-  });
-</script>
 </body>
 </html>
