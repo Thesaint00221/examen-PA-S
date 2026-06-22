@@ -4,29 +4,12 @@
   <meta charset="UTF-8">
   <title>Quiz</title>
 
-  <style>
-*{box-sizing:border-box}
-body{font-family:"Segoe UI",sans-serif;background:#f3f5f7;max-width:950px;margin:auto;padding:30px;color:#222}
-.header{text-align:center;margin-bottom:35px}
-.header h1{font-size:42px;margin:0}.header p{color:#666;margin-top:8px}
-#startscherm,.vraag,#score{background:#fff;border-radius:18px;box-shadow:0 6px 25px rgba(0,0,0,.08)}
-#startscherm{padding:25px;text-align:center;margin-bottom:25px}
-.vraag{margin-bottom:22px;padding:24px;border:none}
-label{display:block;margin:10px 0;padding:12px;border:1px solid #e3e3e3;border-radius:12px;cursor:pointer;transition:.2s}
-label:hover{background:#f8f9ff;transform:translateX(4px)}
-button{background:#0d6efd;color:#fff;border:none;padding:14px 28px;border-radius:10px;font-size:16px;cursor:pointer;transition:.2s;margin:8px}
-button:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(13,110,253,.3)}
-select{padding:12px;border-radius:10px;border:1px solid #ddd}
-.juist{color:#198754;font-weight:bold}.fout{color:#dc3545;font-weight:bold}
-.explanation{margin-top:10px;padding:14px;background:#f8f9fa;border-left:5px solid #4CAF50;border-radius:8px;line-height:1.6}
-.correct-answer{background:#dff7df}.wrong-answer{background:#ffe0e0}
-#score{padding:25px;text-align:center;margin-top:25px}
-</style>
+  <style>*{box-sizing:border-box}body{font-family:"Segoe UI",sans-serif;background:#f3f5f7;max-width:950px;margin:auto;padding:25px;color:#222;transition:.3s}.dark-mode{background:#111;color:#eee}.header{text-align:center;margin-bottom:30px}.header h1{font-size:42px;margin:0}.header p{color:#777}.vraag,#startscherm,#score{background:#fff;border-radius:18px;box-shadow:0 6px 25px rgba(0,0,0,.08)}.dark-mode .vraag,.dark-mode #startscherm,.dark-mode #score{background:#1e1e1e;color:#eee}.vraag{padding:24px;margin-bottom:20px}label{display:block;padding:12px;border:1px solid #ddd;border-radius:12px;margin:10px 0;transition:.2s}label:hover{transform:translateX(4px);background:#f7f9ff}button{background:#0d6efd;color:#fff;border:none;padding:14px 28px;border-radius:10px;cursor:pointer;margin:6px}select{padding:12px;border-radius:10px}.progress-container{height:14px;background:#e9ecef;border-radius:999px;overflow:hidden}.progress-bar{height:100%;width:0;background:#0d6efd;transition:.4s}.correct-answer{background:#dff7df}.wrong-answer{background:#ffe0e0}.medal{font-size:56px}@media(max-width:700px){body{padding:15px}button{width:100%}.header h1{font-size:30px}}</style>
 </head>
 
 <body>
 
-<div class="header"><h1>🛡️ Preventie Quiz</h1><p>Test je kennis van veiligheid en preventie</p></div>
+<div class="header"><h1>🛡️ Preventie Quiz</h1><p>Test je kennis van veiligheid en preventie</p></div><div id="progressWrap" style="display:none;margin-bottom:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span id="progressText">Vraag 0/0</span><button onclick="toggleDarkMode()">🌙 Donkere modus</button></div><div class="progress-container"><div class="progress-bar" id="progressBar"></div></div></div>
 
 <div id="startscherm">
   <p>Kies aantal vragen:</p>
@@ -88,7 +71,7 @@ function startQuiz() {
 function laadQuiz() {
 
   const quizDiv = document.getElementById("quiz");
-  quizDiv.innerHTML = "";
+  quizDiv.innerHTML="";document.getElementById("progressWrap").style.display="block";
 
   quizData.forEach((q, index) => {
 
@@ -111,7 +94,7 @@ function laadQuiz() {
       </div>
     `;
 
-    quizDiv.innerHTML += html;
+    quizDiv.innerHTML += html;document.getElementById("progressText").innerText=`Vraag ${index+1} van ${quizData.length}`;document.getElementById("progressBar").style.width=((index+1)/quizData.length*100)+"%";
   });
 }
 function nakijken() {
@@ -198,8 +181,7 @@ feedback.innerHTML = `
 
   const pct = ((score / quizData.length) * 100).toFixed(1);
 
-  document.getElementById("score").innerHTML =
-    `Score: ${score.toFixed(1)} / ${quizData.length} (${pct}%)`;
+  let medal=pct>=80?"🏆":pct>=60?"🥈":"🎯";let txt=pct>=80?"Uitstekend!":pct>=60?"Goed gedaan!":"Blijven oefenen!";document.getElementById("score").innerHTML=`<div class="medal">${medal}</div><h2>Resultaat</h2><h1>${score.toFixed(1)} / ${quizData.length}</h1><h2>${pct}%</h2><p>${txt}</p>`;
 
   document.getElementById("opnieuwBtn").style.display = "inline-block";
 }
@@ -224,6 +206,7 @@ function nieuweQuiz() {
   // Variabele leegmaken
   quizData = [];
 }
+function toggleDarkMode(){document.body.classList.toggle("dark-mode");}
 /* HIER START DE VRAGENLIJST */
 
 </script>
