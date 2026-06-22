@@ -96,7 +96,24 @@ function laadQuiz() {
 
     quizDiv.innerHTML += html;document.getElementById("progressText").innerText=`Vraag ${index+1} van ${quizData.length}`;document.getElementById("progressBar").style.width=((index+1)/quizData.length*100)+"%";
   });
+
+  enableRadioToggle();
 }
+
+function enableRadioToggle() {
+  document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.addEventListener('mousedown', function() {
+      this.dataset.checked = this.checked;
+    });
+    radio.addEventListener('click', function() {
+      if (this.dataset.checked === 'true') {
+        this.checked = false;
+      }
+    });
+  });
+}
+
+
 function nakijken() {
 
   let score = 0;
